@@ -181,7 +181,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="7d358454-b45d-42f0-8c04-5c4bd5fd8ccf" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="af45cce3-4117-42aa-a6d6-24565c2307ca" root="1.2.208.193"/>
 									<code code="598151000005105" displayName="gestationsalder" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250524153030+0200"/>
@@ -194,7 +194,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="1a5903b1-9785-4c6f-914f-9255dee8279e" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="f5e21244-0f00-4dc3-9f5f-1a58937e4526" root="1.2.208.193"/>
 									<code code="628011000005109" displayName="risiko for kromosomanomali" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250524153030+0200"/>
@@ -216,7 +216,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.6" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="b525d4f6-5eee-449a-bfc4-1cd94bc878c3" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="7a5076ab-11d9-4ef5-af33-5d57015a19ab" root="1.2.208.193"/>
 									<code code="738070007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="beregnet terminsdato ud fra prænatal ultralydsscanning"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250524153030+0200"/>
@@ -232,7 +232,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.8" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="8959a1d7-42b4-4f37-9c92-7fbbdbe3df8e" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="1e02bac2-ca4f-4b4e-9086-a403ab89c764" root="1.2.208.193"/>
 									<code code="246435002" displayName="antal fostre" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250524153030+0200"/>

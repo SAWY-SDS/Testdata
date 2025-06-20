@@ -13,7 +13,7 @@
   <!-- MedCom templateId for Pregnancy Referal From-->
   <templateId extension="2.0" root="1.2.208.184.19.1"/>
   <!-- Unik ID for this PRF-DK instance -->
-  <id assigningAuthorityName="PLSP" extension="9289424b-21aa-4ae7-b6fe-d4fb3eb3a2ca"
+  <id assigningAuthorityName="PLSP" extension="ad8599ef-dc6b-4ebb-9772-b3dd57183d39"
     root="1.2.208.193"/>
   <code code="PRF" codeSystem="1.2.208.184.100.1" codeSystemName="MedCom Message Codes"
     displayName="Pregnancy Referal From"/>

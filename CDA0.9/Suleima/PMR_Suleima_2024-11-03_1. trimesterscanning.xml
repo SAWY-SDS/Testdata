@@ -195,7 +195,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="ac00828c-f90c-4b3c-b085-41c3c3ce0f34" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="19e12158-80c9-4e01-b5f4-6df5573ea6bf" root="1.2.208.193"/>
 									<code code="271649006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Systolisk blodtryk">
 										<translation code="DNK05472" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Blodtryk systolisk;Arm"/>
 									</code>
@@ -210,7 +210,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="9a00aa66-e4e9-4dd0-b15f-69dbfd517d83" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="cc7ebc3b-3377-4772-b734-2c51782785ed" root="1.2.208.193"/>
 									<code code="271650006" displayName="diastolisk blodtryk" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK05473" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Arm—Blodtryk(diastolisk); tryk = ? mmHg"/>						
 									</code>
@@ -228,7 +228,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.4" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="f94b4070-f837-4995-9151-87972a227954" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="1d40516a-ce8f-4509-b75c-9b47c2a52438" root="1.2.208.193"/>
 									<code code="628001000005106" displayName="placentas placering i livmoderen" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20241103153030+0200"/>
@@ -246,7 +246,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="36c191ee-e933-4c17-9520-04bf1889470c" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="0c03694c-a8ca-41cf-aae9-4a270f05a3f1" root="1.2.208.193"/>
 									<code code="628011000005109" displayName="risiko for kromosomanomali" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20241103153030+0200"/>
@@ -268,7 +268,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.6" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="05fce746-4c80-4b38-a5a7-449c460b6802" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="bbbd34aa-2933-4eb2-88ae-e79a6b0e1dc3" root="1.2.208.193"/>
 									<code code="738070007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="beregnet terminsdato ud fra prænatal ultralydsscanning"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20241103153030+0200"/>
@@ -284,7 +284,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.8" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="3590d5d5-412b-455e-9104-9c952b5a0afb" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="4f136fb7-3c61-4340-ac8a-1331711afacb" root="1.2.208.193"/>
 									<code code="246435002" displayName="antal fostre" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20241103153030+0200"/>

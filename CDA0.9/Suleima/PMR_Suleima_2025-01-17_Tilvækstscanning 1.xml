@@ -174,7 +174,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="31c3393f-c470-4db9-a4e9-ee2c25883802" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="df5e953b-0d9c-4903-b44c-4fe20ca2c36c" root="1.2.208.193"/>
 									<code code="364253002" displayName="symfyse-fundus-mål" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35317" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Pt—Symfyse-fundus; længde = ? mm"/>						
 									</code>
@@ -189,7 +189,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="6ffb1a41-c35e-424b-abdb-172062e58ccf" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="c24f7cc1-4d25-4114-90c7-fa7a7c4b6a7d" root="1.2.208.193"/>
 									<code code="627991000005103" displayName="skønnet fostervægt ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35318" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme; masse = ? g"/>						
 									</code>
@@ -212,7 +212,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.8" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="f31ac0cf-088a-4af4-86d2-2f021a7d37e8" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="8c518aa1-d01e-453c-8b40-1af8515b8180" root="1.2.208.193"/>
 									<code code="246435002" displayName="antal fostre" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250118023030+0200"/>

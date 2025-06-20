@@ -202,7 +202,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="fefe49c9-93b5-4d7f-ab18-13ccd6397d72" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="e09439a7-cbbd-4258-808f-b01ca5344a7d" root="1.2.208.193"/>
 									<code code="271649006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Systolisk blodtryk">
 										<translation code="DNK05472" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Blodtryk systolisk;Arm"/>
 									</code>
@@ -217,7 +217,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="f9ed5292-551b-4c6f-9871-321242d75181" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="fcdd5b9b-b543-48bf-8878-689a60586098" root="1.2.208.193"/>
 									<code code="271650006" displayName="diastolisk blodtryk" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK05473" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Arm—Blodtryk(diastolisk); tryk = ? mmHg"/>						
 									</code>
@@ -235,7 +235,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.4" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="e1919145-4a2f-4281-8bbe-74edd26b1b6b" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="d6277358-767d-47f2-b31d-8edd7573b0bb" root="1.2.208.193"/>
 									<code code="628001000005106" displayName="placentas placering i livmoderen" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250422153030+0200"/>
@@ -253,7 +253,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="363c6659-4011-47f4-a54c-a85a4b6f140b" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="0982c2a8-f7f0-4ad3-bf14-ff118c6b5aba" root="1.2.208.193"/>
 									<code code="88299004" displayName="fostervand" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35321" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Livmoder—Amnionvæske volumen; længde(AFI) = ? mm"/>
 									</code>
@@ -274,7 +274,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="9a30e8af-ac64-4c56-8d0f-efafff45a702" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="f8214c59-452c-4b2e-9d49-f12792cb74f8" root="1.2.208.193"/>
 									<code code="628011000005109" displayName="risiko for kromosomanomali" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250422153030+0200"/>
@@ -296,7 +296,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.6" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="b25a25fb-8be4-4a9e-85d4-a9d09e679258" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="b473b095-e485-4311-9653-097292988f33" root="1.2.208.193"/>
 									<code code="738070007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="beregnet terminsdato ud fra prænatal ultralydsscanning"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250422153030+0200"/>
@@ -312,7 +312,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.8" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="aca1120f-a74d-4e52-809f-ca6f4d2b8975" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="d081c936-7359-42e1-b141-26bc91878430" root="1.2.208.193"/>
 									<code code="246435002" displayName="antal fostre" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250422153030+0200"/>

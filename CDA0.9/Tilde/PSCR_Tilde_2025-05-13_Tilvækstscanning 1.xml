@@ -111,7 +111,7 @@
       <templateId root="1.2.208.184.10.1.12"/>
       <!--This id @extension equals the pregnancy episode-of-care UUID -->
       <id assigningAuthorityName="Sundhedsdatastyrelsen"
-        extension="e94ac342-24d5-490c-b356-874a70606b37" root="1.2.208.176.7.4.1"/>
+        extension="e3500b78-d220-4961-87ca-405b62641969" root="1.2.208.176.7.4.1"/>
     </serviceEvent>
   </documentationOf>
   <component contextConductionInd="true" typeCode="COMP">

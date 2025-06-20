@@ -193,7 +193,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="6a6f2076-3958-4a76-a4f5-894e53ff4420" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="eea3f428-7ecd-492c-ad18-14e6e5b8557e" root="1.2.208.193"/>
 									<code code="248918004" displayName="længde af cervix uteri" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35322" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Pt—Cervix uteri; længde = ? mm"/>						
 									</code>
@@ -211,7 +211,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.4" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="07b644be-6a22-4e67-946b-d07a73170082" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="8c83444d-57e0-437a-a9fe-391ea85a4de5" root="1.2.208.193"/>
 									<code code="628001000005106" displayName="placentas placering i livmoderen" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250318173030+0200"/>
@@ -232,7 +232,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.4" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="aae18dd4-1c50-48c6-923d-f84d769f0152" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="7f0cb6ab-c7b8-48f4-b1a8-0cb62baca068" root="1.2.208.193"/>
 									<code code="628001000005106" displayName="placentas placering i livmoderen" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250318173030+0200"/>
@@ -250,7 +250,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="d33aeef7-be8e-4e58-a46d-025a3aead620" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="7f386ec6-39e2-4261-935e-f323f6c138e7" root="1.2.208.193"/>
 									<code code="627981000005101" displayName="fosterpræsentation ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250318173030+0200"/>
@@ -269,7 +269,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="1038a6a7-fa5c-46c1-9855-e105f743be5c" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="de9f49c4-9b18-4159-aa49-8ca73ed0c99c" root="1.2.208.193"/>
 									<code code="627981000005101" displayName="fosterpræsentation ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250318173030+0200"/>
@@ -291,7 +291,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.8" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="46b43f2f-7231-4c55-9ded-4edb7ac509da" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="27e00190-c18f-4c20-b253-3df229607b90" root="1.2.208.193"/>
 									<code code="246435002" displayName="antal fostre" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250318173030+0200"/>

@@ -217,7 +217,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="06111bff-1502-41e6-a9b3-92da73798439" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="73855322-0994-4bee-91f1-1d92dfa9695f" root="1.2.208.193"/>
 									<code code="248918004" displayName="længde af cervix uteri" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35322" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Pt—Cervix uteri; længde = ? mm"/>						
 									</code>
@@ -232,7 +232,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="79ea0a34-72bd-486e-a39f-d8295c2bd8d9" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="c8270486-dd44-4d43-9058-195ccb29e03e" root="1.2.208.193"/>
 									<code code="627991000005103" displayName="skønnet fostervægt ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35318" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme; masse = ? g"/>						
 									</code>
@@ -252,7 +252,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="8d271df5-edfc-40d8-9692-635e318bce1b" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="efeb5db9-575e-4864-b798-901768d6ce8d" root="1.2.208.193"/>
 									<code code="627991000005103" displayName="skønnet fostervægt ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35318" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme; masse = ? g"/>						
 									</code>
@@ -272,7 +272,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="6f035c81-3c08-468f-ae70-f7a8174a0439" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="20652cfa-38a8-45a8-9551-ebff0658e958" root="1.2.208.193"/>
 									<code code="248353000" displayName="procent af referencevægt" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35320" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme(aktuel-norm); massefr. = ? %"/>						
 									</code>
@@ -292,7 +292,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="fd9d8829-25c7-4a21-8d44-ed2e4d47b23c" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="032d3097-9dfc-4beb-8dfa-fa800fb587f7" root="1.2.208.193"/>
 									<code code="248353000" displayName="procent af referencevægt" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35320" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme(aktuel-norm); massefr. = ? %"/>						
 									</code>
@@ -312,7 +312,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="2925b81a-df01-4d53-90ef-e432a89ce09e" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="a661f691-dcbf-49ec-b68f-fd0faed44826" root="1.2.208.193"/>
 									<code code="627981000005101" displayName="fosterpræsentation ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250514023030+0200"/>
@@ -331,7 +331,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="1e09b7f7-fbd5-4108-8c81-e7bc866513b5" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="acb76a77-d2ca-4ae9-a700-8f4cc582d7cb" root="1.2.208.193"/>
 									<code code="627981000005101" displayName="fosterpræsentation ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250514023030+0200"/>
@@ -350,7 +350,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="a506cb80-ccde-454a-a8d1-016a45a48e58" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="46319c13-c461-4a95-bfea-cb39584aa53c" root="1.2.208.193"/>
 									<code code="88299004" displayName="fostervand" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35321" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Livmoder—Amnionvæske volumen; længde(AFI) = ? mm"/>
 									</code>
@@ -371,7 +371,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="bcb161e3-e27b-4e09-8764-8d688324fbef" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="075c8977-9f37-4076-b1ad-b1a79541fad4" root="1.2.208.193"/>
 									<code code="88299004" displayName="fostervand" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35321" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Livmoder—Amnionvæske volumen; længde(AFI) = ? mm"/>
 									</code>
@@ -395,7 +395,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.8" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="fca760f1-47e8-4229-ba45-e5b72694dc73" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="24644b2d-15c5-4c43-9c84-eef2f71c910c" root="1.2.208.193"/>
 									<code code="246435002" displayName="antal fostre" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250514023030+0200"/>

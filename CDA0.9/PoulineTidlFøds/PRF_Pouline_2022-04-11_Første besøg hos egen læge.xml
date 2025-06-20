@@ -13,7 +13,7 @@
   <!-- MedCom templateId for Pregnancy Referal From-->
   <templateId extension="2.0" root="1.2.208.184.19.1"/>
   <!-- Unik ID for this PRF-DK instance -->
-  <id assigningAuthorityName="PLSP" extension="d1d6560c-9562-410b-9948-79d98781ed87"
+  <id assigningAuthorityName="PLSP" extension="84810821-cfa0-481b-a50f-854c9ef5ad4b"
     root="1.2.208.193"/>
   <code code="PRF" codeSystem="1.2.208.184.100.1" codeSystemName="MedCom Message Codes"
     displayName="Pregnancy Referal From"/>
@@ -983,7 +983,7 @@
               <tbody>
                 <tr>
                   <td>konsangvinitet</td>
-                  <td></td>
+                  <td>Nej</td>
                 </tr>
               </tbody>
             </table>

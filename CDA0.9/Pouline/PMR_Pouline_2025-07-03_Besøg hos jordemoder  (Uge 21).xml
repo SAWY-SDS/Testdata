@@ -175,7 +175,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.4" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="45f829ca-53c9-452e-b0e5-723cf7e8fce3" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="1edd45cd-0b45-4774-888d-574d0f9cc2ee" root="1.2.208.193"/>
 									<code code="423484008" displayName="grad af ødem" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>																				<statusCode code="completed"/>
 									<effectiveTime value="20251011223030+0200"/>
 									<value xsi:type="ST">svære</value>
@@ -187,7 +187,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.4" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="ef17d817-4a09-4d79-b7a2-a2feaea3b8a9" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="062581a2-8ea1-4484-aefb-7195a880f765" root="1.2.208.193"/>
 									<code code="17481000202102" displayName="lokalisation af ødem" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>																				<statusCode code="completed"/>
 									<effectiveTime value="20251011223030+0200"/>
 									<value xsi:type="ST">fødder</value>
@@ -202,7 +202,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.8" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="46ff79e7-5fe8-4f9c-9b5c-6f02e063f36d" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="aa74597e-7061-4c78-a6b7-10566beb5c77" root="1.2.208.193"/>
 									<code code="246435002" displayName="antal fostre" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20251011223030+0200"/>
