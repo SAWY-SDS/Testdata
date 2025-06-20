@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Title:        		Pregnancy Measurement Report 
+ Filename:     		PMR-DK 
+ AppointmentDate: 2025-05-14 
+ AppointmentName: Tilvækstscanning 2
+ Patient:         Tilde Geih Menni 0202954618
+ -->
+<ClinicalDocument moodCode="EVN" xmlns="urn:hl7-org:v3"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <realmCode code="DK"/>
+  <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+  <!-- MedCom templateId for Pregnancy Measurement Report-->
+  <templateId extension="2.0" root="1.2.208.184.21.1"/>
+  <!-- Unik ID for this PMR-DK instance -->
+  <id assigningAuthorityName="PLSP" extension="67358f45-2b27-4ecf-b5e5-2a94a69df227"
+    root="1.2.208.193"/>
+  <code code="PMR" codeSystem="1.2.208.184.100.1" codeSystemName="MedCom Message Codes"
+    displayName="Pregnancy Measurement Report"/>
+  <title>Pregnancy Measurement Report for 0202954618</title>
+  <!-- PMR-DK generated at:  -->
+  <effectiveTime value="20250514023030+0200"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+  <languageCode code="da-DK"/>
+  <!-- This recordTarget indentifies the patient and related information from CPR -->
+  <recordTarget contextControlCode="OP" typeCode="RCT">
+    <patientRole classCode="PAT">
+      <id assigningAuthorityName="CPR" extension="0202954618" root="1.2.208.176.1.2"/>
+      <!-- This is the address from CPR -->
+      <addr use="H">
+        <streetAddressLine>Hæstvej 105</streetAddressLine>
+        <postalCode>6219</postalCode>
+        <city>København K</city>
+        <country>DK</country>
+      </addr>
+      <patient classCode="PSN">
+        <name>
+          <given>Tilde</given>
+          <given>Geih</given>
+          <family>Menni</family>
+        </name>
+        <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1"/>
+        <birthTime value="19950202000000+0200"/>
+      </patient>
+      <providerOrganization>
+				<id assigningAuthorityName="SOR" extension="1411551000016000"
+					root="1.2.208.176.1.1"/>
+				<name>Føtalmedicin Ultralydskanning</name>
+			</providerOrganization>
+    </patientRole>
+  </recordTarget>
+  <author typeCode="AUT" contextControlCode="OP">
+    <time value="20250514023030+0200"/>
+    <!-- ClinicalDocument.author.assignedAuthor 1..1 -->
+    <assignedAuthor classCode="ASSIGNED">
+      <id extension="393421000016009" root="1.2.208.176.1.1" assigningAuthorityName="SOR"/>
+      <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+          <!-- Shall contain at least one given name -->
+          <prefix>Sonograf</prefix>
+          <given>Stella</given>
+          <!-- Shall contain one family name -->
+          <family>Engedal</family>
+        </name>
+      </assignedPerson>
+      <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id extension="393421000016009" root="1.2.208.176.1.1" assigningAuthorityName="SOR"/>
+        <name>Føtalmedicin Ultralydskanning</name>
+        <addr use="WP">
+          <streetAddressLine>Blegdamsvej 9</streetAddressLine>
+          <streetAddressLine>nan</streetAddressLine>
+          <postalCode>210</postalCode>
+          <city>København Ø</city>
+        </addr>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <!-- id @root is set to SDS-root-->
+        <id assigningAuthorityName="SOR" extension="634491000016008" root="1.2.208.176.1.1"/>
+        <name>Sundhedsdatastyrelsen</name>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <documentationOf typeCode="DOC">
+    <serviceEvent classCode="MPROT" moodCode="EVN">
+      <!--This
+      templateId tells that this serviceEvent holds the PMR-DK-v2.0 CDA profile -->
+      <templateId root="1.2.208.184.10.1.10"/>
+      <!--This
+      id @extension equals the identification and version of the CDA profile-->
+      <id assigningAuthorityName="MedCom" extension="PMR-DK-v2.0" root="1.2.208.184.100.10"/>
+    </serviceEvent>
+  </documentationOf>
+  <documentationOf typeCode="DOC">
+    <serviceEvent classCode="ACT" moodCode="EVN">
+    <!--This templateId tells that this serviceEvent holds the creation time of clinical content in this document -->
+      <templateId root="1.2.208.184.10.1.11"/>
+      <effectiveTime>
+        <low value="20250514023030+0200"/>
+        <high nullFlavor="NA"/>
+      </effectiveTime>
+    </serviceEvent>
+  </documentationOf>
+  <documentationOf typeCode="DOC">
+    <serviceEvent classCode="MPROT" moodCode="EVN">
+      <!--This
+          templateId tells that this serviceEvent holds the dokument episode-of-care UUID -->
+      <templateId root="1.2.208.184.10.1.12"/>
+      <!--This id @extension equals the pregnancy episode-of-care UUID -->
+      <id assigningAuthorityName="Sundhedsdatastyrelsen"
+        extension="4528a5b3-f633-4cc1-8231-38cc09f38ca2" root="1.2.208.176.7.4.1"/>
+    </serviceEvent>
+  </documentationOf>
+  <component contextConductionInd="true" typeCode="COMP">
+    <structuredBody classCode="DOCBODY" moodCode="EVN">
+			<!-- Result section [1..1]-->
+			<component contextConductionInd="true" typeCode="COMP">
+				<section classCode="DOCSECT" moodCode="EVN">
+					<!-- CCDA Result Section templateID -->
+					<templateId root="2.16.840.1.113883.10.20.22.2.3" extension="2015-08-01"/>
+					<!-- PMR Result Section templateID -->
+					<templateId root="1.2.208.184.21.2.1" extension="2024-06-01"/>
+					<code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+					<title>Results</title>
+					<text>
+						<table>
+							<thead>
+								<tr>
+									<th>Måling</th>
+									<th>Resultat</th>
+									<th>Tidspunkt</th>
+									<th>Subject</th> 
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>cervixlængde</td>
+									<td>10 mm</td>
+									<td>2025-05-27  02:30:30</td>
+									<td>0202954618</td>
+								</tr>		
+								<tr>
+									<td>skønnet fostervægt ved ultralyd</td>
+									<td>1300 g</td>
+									<td>2025-05-27  02:30:30</td>
+									<td>Foster 1</td>
+								</tr>	
+								<tr>
+									<td>skønnet fostervægt ved ultralyd</td>
+									<td>1380 g</td>
+									<td>2025-05-27  02:30:30</td>
+									<td>Foster 2</td>
+								</tr>
+								<tr>
+									<td>procent af referencevægt</td>
+									<td>-18.92%</td>
+									<td>2025-05-27  02:30:30</td>
+									<td>Foster 1</td>
+								</tr>	
+								<tr>
+									<td>procent af referencevægt</td>
+									<td>-13.93%</td>
+									<td>2025-05-27  02:30:30</td>
+									<td>Foster 2</td>
+								</tr>										
+								<tr>
+									<td>fosterpræsentation ved ultralyd</td>
+									<td>H</td>
+									<td>2025-05-27  02:30:30</td>
+									<td>Foster 1</td>
+								</tr>
+								<tr>
+									<td>fosterpræsentation ved ultralyd</td>
+									<td>Skråleje</td>
+									<td>2025-05-27  02:30:30</td>
+									<td>Foster 2</td>
+								</tr>
+								<tr>
+									<td>fostervand</td>
+									<td>normal</td>
+									<td>2025-05-27  02:30:30</td>
+									<td>foster 1</td>
+								</tr>
+								<tr>
+									<td>fostervand</td>
+									<td>normal</td>
+									<td>2025-05-27  02:30:30</td>
+									<td>foster 2</td>
+								</tr>														
+								<tr>
+									<td>antal fostre</td>
+									<td>2</td>
+									<td>2025-05-27  02:30:30</td>
+									<td>0202954618</td>
+								</tr>									
+							</tbody>
+						</table>
+					</text>
+					<!-- Result Organizer [1..1]-->
+					<entry contextConductionInd="true" typeCode="COMP">
+						<organizer classCode="CLUSTER" moodCode="EVN">
+							<!-- CCDA Organizer templateID -->
+							<templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2023-05-01"/>
+							<!-- PMR Result Organizer templateID -->
+							<templateId root="1.2.208.184.21.2.2" extension="2024-06-01"/>
+							<id assigningAuthorityName="PLSP" extension="2c50f0fc-5e40-43f5-a1f9-3d32516106d9"
+								root="1.2.208.193"/>
+							<code code="NI" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+							<statusCode code="Completed"/>
+							<effectiveTime value="20240624110510+0200"/>
+							<!-- Numeric Result Observation - with NPU code -->
+							<!-- Measurement titel: "Cervixlængde" -->
+							<component contextConductionInd="true" typeCode="COMP">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
+									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
+									<id assigningAuthorityName="PLSP" extension="06111bff-1502-41e6-a9b3-92da73798439" root="1.2.208.193"/>
+									<code code="248918004" displayName="længde af cervix uteri" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+										<translation code="DNK35322" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Pt—Cervix uteri; længde = ? mm"/>						
+									</code>
+									<statusCode code="completed"/>
+									<effectiveTime value="20250514023030+0200"/>
+									<value unit="mm" value="10" xsi:type="PQ"/>									
+								</observation>
+							</component>	
+							<!-- Numeric Result Observation - with NPU code - Fetus 1-->
+							<!-- Measurement titel: "Vægt (skønnet fostervægt ved ultralyd)" -->
+							<component contextConductionInd="true" typeCode="COMP">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
+									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
+									<id assigningAuthorityName="PLSP" extension="79ea0a34-72bd-486e-a39f-d8295c2bd8d9" root="1.2.208.193"/>
+									<code code="627991000005103" displayName="skønnet fostervægt ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+										<translation code="DNK35318" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme; masse = ? g"/>						
+									</code>
+									<statusCode code="completed"/>
+									<effectiveTime value="20250514023030+0200"/>
+									<value unit="g" value="1300" xsi:type="PQ"/>
+									<subject> 
+										<relatedSubject>
+											<code code="1" codeSystem="1.2.208.184.100.4" codeSystemName="Pregnancy Codes" displayName="Foster 1"/>
+										</relatedSubject>
+									</subject>									
+								</observation>
+							</component>
+							<!-- Numeric Result Observation - with NPU code - Fetus 2-->
+							<!-- Measurement titel: "Vægt (skønnet fostervægt ved ultralyd)" -->
+							<component contextConductionInd="true" typeCode="COMP">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
+									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
+									<id assigningAuthorityName="PLSP" extension="8d271df5-edfc-40d8-9692-635e318bce1b" root="1.2.208.193"/>
+									<code code="627991000005103" displayName="skønnet fostervægt ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+										<translation code="DNK35318" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme; masse = ? g"/>						
+									</code>
+									<statusCode code="completed"/>
+									<effectiveTime value="20250514023030+0200"/>
+									<value unit="g" value="1380" xsi:type="PQ"/>
+									<subject> 
+										<relatedSubject>
+											<code code="2" codeSystem="1.2.208.184.100.4" codeSystemName="Pregnancy Codes" displayName="Foster 2"/>
+										</relatedSubject>
+									</subject>									
+								</observation>
+							</component>
+							<!-- Numeric Result Observation - with NPU code - Fetus 1-->
+							<!-- Measurement titel: "Vægtafvigelse" -->
+							<component contextConductionInd="true" typeCode="COMP">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
+									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
+									<id assigningAuthorityName="PLSP" extension="6f035c81-3c08-468f-ae70-f7a8174a0439" root="1.2.208.193"/>
+									<code code="248353000" displayName="procent af referencevægt" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+										<translation code="DNK35320" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme(aktuel-norm); massefr. = ? %"/>						
+									</code>
+									<statusCode code="completed"/>
+									<effectiveTime value="20250514023030+0200"/>
+									<value unit="%" value="-18.92" xsi:type="PQ"/>
+									<subject> 
+										<relatedSubject>
+											<code code="1" codeSystem="1.2.208.184.100.4" codeSystemName="Pregnancy Codes" displayName="Foster 1"/>
+										</relatedSubject>
+									</subject>									
+								</observation>
+							</component>
+							<!-- Numeric Result Observation - with NPU code - Fetus 2-->
+							<!-- Measurement titel: "Vægtafvigelse" -->
+							<component contextConductionInd="true" typeCode="COMP">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
+									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
+									<id assigningAuthorityName="PLSP" extension="fd9d8829-25c7-4a21-8d44-ed2e4d47b23c" root="1.2.208.193"/>
+									<code code="248353000" displayName="procent af referencevægt" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+										<translation code="DNK35320" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme(aktuel-norm); massefr. = ? %"/>						
+									</code>
+									<statusCode code="completed"/>
+									<effectiveTime value="20250514023030+0200"/>
+									<value unit="%" value="11.4" xsi:type="PQ"/>
+									<subject> 
+										<relatedSubject>
+											<code code="2" codeSystem="1.2.208.184.100.4" codeSystemName="Pregnancy Codes" displayName="Foster 2"/>
+										</relatedSubject>
+									</subject>									
+								</observation>
+							</component>
+							<component contextConductionInd="true" typeCode="COMP">
+								<!-- Coded Result Observation - Fetus 1-->
+								<!-- UL Fosterpræsentation -->
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
+									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
+									<id assigningAuthorityName="PLSP" extension="2925b81a-df01-4d53-90ef-e432a89ce09e" root="1.2.208.193"/>
+									<code code="627981000005101" displayName="fosterpræsentation ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+									<statusCode code="completed"/>
+									<effectiveTime value="20250514023030+0200"/>
+									<value xsi:type="CD" code="1209182005" displayName="hovedpræsentation"
+										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+									<subject> 
+										<relatedSubject>
+											<code code="1" codeSystem="1.2.208.184.100.4" codeSystemName="Pregnancy Codes" displayName="Foster 1"/>
+										</relatedSubject>
+									</subject>
+								</observation>
+							</component>
+							<component contextConductionInd="true" typeCode="COMP">
+								<!-- Coded Result Observation - Fetus 2-->
+								<!-- UL Fosterpræsentation -->
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
+									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
+									<id assigningAuthorityName="PLSP" extension="1e09b7f7-fbd5-4108-8c81-e7bc866513b5" root="1.2.208.193"/>
+									<code code="627981000005101" displayName="fosterpræsentation ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+									<statusCode code="completed"/>
+									<effectiveTime value="20250514023030+0200"/>
+									<value xsi:type="CD" code="63750008" displayName="Skråleje"
+										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+									<subject> 
+										<relatedSubject>
+											<code code="2" codeSystem="1.2.208.184.100.4" codeSystemName="Pregnancy Codes" displayName="Foster 2"/>
+										</relatedSubject>
+									</subject>
+								</observation>
+							</component>
+							<component contextConductionInd="true" typeCode="COMP">
+								<!-- Coded Result Observation - with NPU Code-->
+								<!-- Fostervand Fetus 1-->
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
+									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
+									<id assigningAuthorityName="PLSP" extension="a506cb80-ccde-454a-a8d1-016a45a48e58" root="1.2.208.193"/>
+									<code code="88299004" displayName="fostervand" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+										<translation code="DNK35321" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Livmoder—Amnionvæske volumen; længde(AFI) = ? mm"/>
+									</code>
+									<statusCode code="completed"/>
+									<effectiveTime value="20250514023030+0200"/>
+									<value xsi:type="CD" code="1228877003" displayName="mængde af amnionvæske under referenceinterval"
+										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+									<subject> 
+										<relatedSubject>
+											<code code="1" codeSystem="1.2.208.184.100.4" codeSystemName="Pregnancy Codes" displayName="Foster 1"/>
+										</relatedSubject>
+									</subject>
+								</observation>
+							</component>
+							<component contextConductionInd="true" typeCode="COMP">
+								<!-- Coded Result Observation - with NPU Code-->
+								<!-- Fostervand Fetus 2-->
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
+									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
+									<id assigningAuthorityName="PLSP" extension="bcb161e3-e27b-4e09-8764-8d688324fbef" root="1.2.208.193"/>
+									<code code="88299004" displayName="fostervand" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+										<translation code="DNK35321" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Livmoder—Amnionvæske volumen; længde(AFI) = ? mm"/>
+									</code>
+									<statusCode code="completed"/>
+									<effectiveTime value="20250514023030+0200"/>
+									<value xsi:type="CD" code="1228877003" displayName="724e06b3"
+										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+									<subject> 
+										<relatedSubject>
+											<code code="2" codeSystem="1.2.208.184.100.4" codeSystemName="Pregnancy Codes" displayName="Foster 2"/>
+										</relatedSubject>
+									</subject>
+								</observation>
+							</component>
+                    <!-- Integer Result Observations -->
+					<!-- templateId root="1.2.208.184.21.2.8" -->
+					<!-- #################################### -->
+							<!-- Integer Result Observation  -->
+							<!-- Measurement titel: "Antal fostre" -->
+							<component contextConductionInd="true" typeCode="COMP">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
+									<templateId root="1.2.208.184.21.2.8" extension="2025-01-15"/>
+									<id assigningAuthorityName="PLSP" extension="fca760f1-47e8-4229-ba45-e5b72694dc73" root="1.2.208.193"/>
+									<code code="246435002" displayName="antal fostre" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+									<statusCode code="completed"/>
+									<effectiveTime value="20250514023030+0200"/>
+									<value xsi:type="INT" value="2"/>									
+								</observation>
+							</component>
+						</organizer>
+					</entry>
+				</section>
+			</component>
+		</structuredBody>
+	</component>
+</ClinicalDocument>

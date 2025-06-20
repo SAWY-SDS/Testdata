@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Title:        		Pregnancy Measurement Report 
+ Filename:     		PMR-DK 
+ AppointmentDate: 2024-12-16 
+ AppointmentName: 1. trimesterscanning
+ Patient:         Kaya Jokumsen 1704999948
+ -->
+<ClinicalDocument moodCode="EVN" xmlns="urn:hl7-org:v3"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <realmCode code="DK"/>
+  <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+  <!-- MedCom templateId for Pregnancy Measurement Report-->
+  <templateId extension="2.0" root="1.2.208.184.21.1"/>
+  <!-- Unik ID for this PMR-DK instance -->
+  <id assigningAuthorityName="PLSP" extension="4eae11e3-97c3-4896-99c8-e083cf732be8"
+    root="1.2.208.193"/>
+  <code code="PMR" codeSystem="1.2.208.184.100.1" codeSystemName="MedCom Message Codes"
+    displayName="Pregnancy Measurement Report"/>
+  <title>Pregnancy Measurement Report for 1704999948</title>
+  <!-- PMR-DK generated at:  -->
+  <effectiveTime value="20241216153030+0200"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+  <languageCode code="da-DK"/>
+  <!-- This recordTarget indentifies the patient and related information from CPR -->
+  <recordTarget contextControlCode="OP" typeCode="RCT">
+    <patientRole classCode="PAT">
+      <id assigningAuthorityName="CPR" extension="1704999948" root="1.2.208.176.1.2"/>
+      <!-- This is the address from CPR -->
+      <addr use="H">
+        <streetAddressLine>Mosegårdsparken 92</streetAddressLine>
+        <postalCode>6621</postalCode>
+        <city>København</city>
+        <country>DK</country>
+      </addr>
+      <patient classCode="PSN">
+        <name>
+          <given>Kaya</given>
+          <family>Jokumsen</family>
+        </name>
+        <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1"/>
+        <birthTime value="19990417000000+0200"/>
+      </patient>
+      <providerOrganization>
+				<id assigningAuthorityName="SOR" extension="1411551000016000"
+					root="1.2.208.176.1.1"/>
+				<name>Lægerne i Sundhedshuset Hedehusene</name>
+			</providerOrganization>
+    </patientRole>
+  </recordTarget>
+  <author typeCode="AUT" contextControlCode="OP">
+    <time value="20241216153030+0200"/>
+    <!-- ClinicalDocument.author.assignedAuthor 1..1 -->
+    <assignedAuthor classCode="ASSIGNED">
+      <id extension="393421000016009" root="1.2.208.176.1.1" assigningAuthorityName="SOR"/>
+      <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+          <!-- Shall contain at least one given name -->
+          <prefix>læge</prefix>
+          <given>Beatrice</given>
+          <!-- Shall contain one family name -->
+          <family>Lund</family>
+        </name>
+      </assignedPerson>
+      <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id extension="393421000016009" root="1.2.208.176.1.1" assigningAuthorityName="SOR"/>
+        <name>Lægerne i Sundhedshuset Hedehusene</name>
+        <addr use="WP">
+          <streetAddressLine>Hotelvej 11</streetAddressLine>
+          <streetAddressLine>Hedehusene Region Hovedstaden</streetAddressLine>
+          <postalCode>2640</postalCode>
+          <city>Hedehusene</city>
+        </addr>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <!-- id @root is set to SDS-root-->
+        <id assigningAuthorityName="SOR" extension="634491000016008" root="1.2.208.176.1.1"/>
+        <name>Sundhedsdatastyrelsen</name>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <documentationOf typeCode="DOC">
+    <serviceEvent classCode="MPROT" moodCode="EVN">
+      <!--This
+      templateId tells that this serviceEvent holds the PMR-DK-v2.0 CDA profile -->
+      <templateId root="1.2.208.184.10.1.10"/>
+      <!--This
+      id @extension equals the identification and version of the CDA profile-->
+      <id assigningAuthorityName="MedCom" extension="PMR-DK-v2.0" root="1.2.208.184.100.10"/>
+    </serviceEvent>
+  </documentationOf>
+  <documentationOf typeCode="DOC">
+    <serviceEvent classCode="ACT" moodCode="EVN">
+    <!--This templateId tells that this serviceEvent holds the creation time of clinical content in this document -->
+      <templateId root="1.2.208.184.10.1.11"/>
+      <effectiveTime>
+        <low value="20241216153030+0200"/>
+        <high nullFlavor="NA"/>
+      </effectiveTime>
+    </serviceEvent>
+  </documentationOf>
+  <documentationOf typeCode="DOC">
+    <serviceEvent classCode="MPROT" moodCode="EVN">
+      <!--This
+          templateId tells that this serviceEvent holds the dokument episode-of-care UUID -->
+      <templateId root="1.2.208.184.10.1.12"/>
+      <!--This id @extension equals the pregnancy episode-of-care UUID -->
+      <id assigningAuthorityName="Sundhedsdatastyrelsen"
+        extension="4528a5b3-f633-4cc1-8231-38cc09f38ca2" root="1.2.208.176.7.4.1"/>
+    </serviceEvent>
+  </documentationOf>
+  <component contextConductionInd="true" typeCode="COMP">
+    <structuredBody classCode="DOCBODY" moodCode="EVN">
+			<!-- Result section [1..1]-->
+			<component contextConductionInd="true" typeCode="COMP">
+				<section classCode="DOCSECT" moodCode="EVN">
+					<!-- CCDA Result Section templateID -->
+					<templateId root="2.16.840.1.113883.10.20.22.2.3" extension="2015-08-01"/>
+					<!-- PMR Result Section templateID -->
+					<templateId root="1.2.208.184.21.2.1" extension="2024-06-01"/>
+					<code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+					<title>Results</title>
+					<text>
+						<table>
+							<thead>
+								<tr>
+									<th>Måling</th>
+									<th>Resultat</th>
+									<th>Tidspunkt</th>
+									<th>Subject</th> 
+								</tr>
+							</thead>
+							<tbody>													
+								<tr>
+									<td>hjertelyd</td>
+									<td>Hjertelyd påvist</td>
+									<td>2024-12-16  15:30:30</td>
+									<td>Foster 1</td>
+								</tr>	
+								<tr>
+									<td>risiko for kromosomanomali</td>
+									<td>lav</td>
+									<td>2024-12-16  15:30:30</td>
+									<td>Foster 1</td>
+								</tr>				
+								<tr>
+									<td>beregnet terminsdato ud fra prænatal ultralydsscanning</td>
+									<td>20250630</td>
+									<td>2024-12-16  15:30:30</td>
+									<td>1704999948</td>
+								</tr>										
+								<tr>
+									<td>antal fostre</td>
+									<td>1</td>
+									<td>2024-12-16  15:30:30</td>
+									<td>1704999948</td>
+								</tr>									
+							</tbody>
+						</table>
+					</text>
+					<!-- Result Organizer [1..1]-->
+					<entry contextConductionInd="true" typeCode="COMP">
+						<organizer classCode="CLUSTER" moodCode="EVN">
+							<!-- CCDA Organizer templateID -->
+							<templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2023-05-01"/>
+							<!-- PMR Result Organizer templateID -->
+							<templateId root="1.2.208.184.21.2.2" extension="2024-06-01"/>
+							<id assigningAuthorityName="PLSP" extension="2c50f0fc-5e40-43f5-a1f9-3d32516106d9"
+								root="1.2.208.193"/>
+							<code code="NI" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+							<statusCode code="Completed"/>
+							<effectiveTime value="20240624110510+0200"/>
+					<!-- Coded Result Observations -->
+					<!-- templateId root="1.2.208.184.21.2.5" -->
+					<!-- #################################### -->
+							<component contextConductionInd="true" typeCode="COMP">
+								<!-- Coded Result Observation - Fetus 1-->
+								<!-- Hjertelyd -->
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
+									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
+									<id assigningAuthorityName="PLSP" extension="0b665f69-4dc5-40f3-82e5-0c4f68475496" root="1.2.208.193"/>
+									<code code="271660002" displayName="hjertelyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+									<effectiveTime value="20241216153030+0200"/>
+									<value xsi:type="CD" code="289446001" displayName="fosterhjertelyd ikke påvist"
+										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+									<subject> 
+										<relatedSubject>
+											<code code="1" codeSystem="1.2.208.184.100.4" codeSystemName="Pregnancy Codes" displayName="Foster 1"/>
+										</relatedSubject>
+									</subject>
+								</observation>
+							</component>
+							<component contextConductionInd="true" typeCode="COMP">
+								<!-- Coded Result Observation - Fetus 1-->
+								<!-- Sandsynlighed for kromosomafvigelser -->
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
+									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
+									<id assigningAuthorityName="PLSP" extension="8992f1d7-78ca-46a2-b649-c23e4413f97e" root="1.2.208.193"/>
+									<code code="628011000005109" displayName="risiko for kromosomanomali" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+									<statusCode code="completed"/>
+									<effectiveTime value="20241216153030+0200"/>
+									<value xsi:type="CD" code="723505004" displayName="lav risiko"
+										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+									<subject> 
+										<relatedSubject>
+											<code code="1" codeSystem="1.2.208.184.100.4" codeSystemName="Pregnancy Codes" displayName="Foster 1"/>
+										</relatedSubject>
+									</subject>
+								</observation>
+							</component>
+					<!-- Timestamp Result Observations -->
+					<!-- templateId root="1.2.208.184.21.2.6" -->
+					<!-- #################################### -->
+							<component contextConductionInd="true" typeCode="COMP">
+							<!-- Timestamp Result Observation -->
+							<!-- Ultralydsbestemt Termin -->
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
+									<templateId root="1.2.208.184.21.2.6" extension="2025-01-15"/>
+									<id assigningAuthorityName="PLSP" extension="5f0998be-20e7-40b4-bf8a-a55102235521" root="1.2.208.193"/>
+									<code code="738070007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="beregnet terminsdato ud fra prænatal ultralydsscanning"/>
+									<statusCode code="completed"/>
+									<effectiveTime value="20241216153030+0200"/>
+    								<value xsi:type="TS" value="20250630"/>
+								</observation>
+							</component>
+                    <!-- Integer Result Observations -->
+					<!-- templateId root="1.2.208.184.21.2.8" -->
+					<!-- #################################### -->
+							<!-- Integer Result Observation  -->
+							<!-- Measurement titel: "Antal fostre" -->
+							<component contextConductionInd="true" typeCode="COMP">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
+									<templateId root="1.2.208.184.21.2.8" extension="2025-01-15"/>
+									<id assigningAuthorityName="PLSP" extension="39344c39-92ee-41c8-be7e-2f369bace4b0" root="1.2.208.193"/>
+									<code code="246435002" displayName="antal fostre" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+									<statusCode code="completed"/>
+									<effectiveTime value="20241216153030+0200"/>
+									<value xsi:type="INT" value="1"/>									
+								</observation>
+							</component>
+						</organizer>
+					</entry>
+				</section>
+			</component>
+		</structuredBody>
+	</component>
+</ClinicalDocument>

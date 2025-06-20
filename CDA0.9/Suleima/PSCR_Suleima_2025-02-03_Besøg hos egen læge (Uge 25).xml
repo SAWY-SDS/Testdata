@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Title:        		Pregnancy Shared Care Record 
+ Filename:     		PSCR-DK 
+ AppointmentDate: 2024-11-13 
+ AppointmentName: Besøg hos egen læge (Uge 25)
+ Patient:         Suleima Zólo 3103809354
+ -->
+<ClinicalDocument moodCode="EVN" xmlns="urn:hl7-org:v3"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <realmCode code="DK"/>
+  <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+  <!-- MedCom templateId for Pregnancy Shared Care Record-->
+  <templateId extension="2.0" root="1.2.208.184.20.1"/>
+  <!-- Unik ID for this PSCR-DK instance -->
+  <id assigningAuthorityName="PLSP" extension="fa34f268-36fc-448a-8a19-f064b95a8861"
+    root="1.2.208.193"/>
+  <code code="PSCR" codeSystem="1.2.208.184.100.1" codeSystemName="MedCom Message Codes"
+    displayName="Pregnancy Shared Care Record"/>
+  <title>Pregnancy Shared Care Record for 3103809354</title>
+  <!-- PSCR-DK generated at:  -->
+  <effectiveTime value="20241113163030+0200"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+  <languageCode code="da-DK"/>
+  <!-- This recordTarget indentifies the patient and related information from CPR -->
+  <recordTarget contextControlCode="OP" typeCode="RCT">
+    <patientRole classCode="PAT">
+      <id assigningAuthorityName="CPR" extension="3103809354" root="1.2.208.176.1.2"/>
+      <!-- This is the address from CPR -->
+      <addr use="H">
+        <streetAddressLine>Mosegårdsparken 92</streetAddressLine>
+        <postalCode>6621</postalCode>
+        <city>København</city>
+        <country>DK</country>
+      </addr>
+      <patient classCode="PSN">
+        <name>
+          <given>Suleima</given>
+          <family>Zólo</family>
+        </name>
+        <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1"/>
+        <birthTime value="19800331000000+0200"/>
+      </patient>
+      <providerOrganization>
+				<id assigningAuthorityName="SOR" extension="1411551000016000"
+					root="1.2.208.176.1.1"/>
+				<name>Lægerne i Sundhedshuset Hedehusene</name>
+			</providerOrganization>
+    </patientRole>
+  </recordTarget>
+  <author typeCode="AUT" contextControlCode="OP">
+    <time value="20241113163030+0200"/>
+    <!-- ClinicalDocument.author.assignedAuthor 1..1 -->
+    <assignedAuthor classCode="ASSIGNED">
+      <id extension="393421000016009" root="1.2.208.176.1.1" assigningAuthorityName="SOR"/>
+      <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+          <!-- Shall contain at least one given name -->
+          <prefix>læge</prefix>
+          <given>Beatrice</given>
+          <!-- Shall contain one family name -->
+          <family>Lund</family>
+        </name>
+      </assignedPerson>
+      <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id extension="393421000016009" root="1.2.208.176.1.1" assigningAuthorityName="SOR"/>
+        <name>Lægerne i Sundhedshuset Hedehusene</name>
+        <addr use="WP">
+          <streetAddressLine>Hotelvej 11</streetAddressLine>
+          <streetAddressLine>Hedehusene Region Hovedstaden</streetAddressLine>
+          <postalCode>2640</postalCode>
+          <city>Hedehusene</city>
+        </addr>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <!-- id @root is set to SDS-root-->
+        <id assigningAuthorityName="SOR" extension="634491000016008" root="1.2.208.176.1.1"/>
+        <name>Sundhedsdatastyrelsen</name>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <documentationOf typeCode="DOC">
+    <serviceEvent classCode="MPROT" moodCode="EVN">
+      <!--This
+      templateId tells that this serviceEvent holds the PSCR-DK-v2.0 CDA profile -->
+      <templateId root="1.2.208.184.10.1.10"/>
+      <!--This
+      id @extension equals the identification and version of the CDA profile-->
+      <id assigningAuthorityName="MedCom" extension="PSCR-DK-v2.0" root="1.2.208.184.100.10"/>
+    </serviceEvent>
+  </documentationOf>
+  <documentationOf typeCode="DOC">
+    <serviceEvent classCode="ACT" moodCode="EVN">
+    <!--This templateId tells that this serviceEvent holds the creation time of clinical content in this document -->
+      <templateId root="1.2.208.184.10.1.11"/>
+      <effectiveTime>
+        <low value="20241113163030+0200"/>
+        <high nullFlavor="NA"/>
+      </effectiveTime>
+    </serviceEvent>
+  </documentationOf>
+  <documentationOf typeCode="DOC">
+    <serviceEvent classCode="MPROT" moodCode="EVN">
+      <!--This
+          templateId tells that this serviceEvent holds the dokument episode-of-care UUID -->
+      <templateId root="1.2.208.184.10.1.12"/>
+      <!--This id @extension equals the pregnancy episode-of-care UUID -->
+      <id assigningAuthorityName="Sundhedsdatastyrelsen"
+        extension="4528a5b3-f633-4cc1-8231-38cc09f38ca2" root="1.2.208.176.7.4.1"/>
+    </serviceEvent>
+  </documentationOf>
+  <component contextConductionInd="true" typeCode="COMP">
+    <structuredBody classCode="DOCBODY" moodCode="EVN">
+<!-- Remarks relating to nutrition -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Remarks relating to nutrition - section template -->
+          <templateId root="1.2.208.184.20.2.35" extension="2025-05-21"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section template -->
+          <code code="364393001" displayName="Kost" codeSystem="2.16.840.1.113883.6.96"
+            codeSystemName="SNOMED CT"/>
+          <title>Kost</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>relevant information</td>
+                  <td>Påmindelse om at huske at spise godt</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Pertinent information - [0..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Medcom "Pertinent information" template -->
+              <templateId root="1.2.208.184.20.2.66" extension="2025-05-21"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <!-- The SNOMED code for the value being observed: Pertinent information -->
+              <code code="398005008" displayName="relevant information"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <value xsi:type="ST">Påmindelse om at huske at spise godt</value>
+            </observation>
+          </entry>
+        </section>
+      </component>
+<!-- Resumé -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Resumé - section template -->
+          <templateId root="1.2.208.184.20.2.65" extension="2025-05-21"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section template -->
+          <code code="371534008" displayName="Resume" codeSystem="2.16.840.1.113883.6.96"
+            codeSystemName="SNOMED CT"/>
+          <title>Resume</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>relevant information</td>
+                  <td>Suleima er mere påvirket af graviditeten og bekymringer deraf end var forberedt på at være. Selvbebrejdende med at have valgt at få barn sent. Udover SGA foster, og lav SF er alt normalt. risiko for præmatur fødsel, recept på NSAID ift lungemodning, og korikosteriod som hun kan tage ved fortsat SGA ved tilvækstscanninger </td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Pertinent information - [0..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Medcom "Pertinent information" template -->
+              <templateId root="1.2.208.184.20.2.66" extension="2025-05-21"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <!-- The SNOMED code for the value being observed: Pertinent information -->
+              <code code="398005008" displayName="relevant information"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <value xsi:type="ST">Suleima er mere påvirket af graviditeten og bekymringer deraf end var forberedt på at være. Selvbebrejdende med at have valgt at få barn sent. Udover SGA foster, og lav SF er alt normalt. risiko for præmatur fødsel, recept på NSAID ift lungemodning, og korikosteriod som hun kan tage ved fortsat SGA ved tilvækstscanninger </value>
+            </observation>
+          </entry>
+        </section>
+      </component>
+
+    </structuredBody>
+  </component>
+</ClinicalDocument>
