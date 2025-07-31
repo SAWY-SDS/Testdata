@@ -1,0 +1,1691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Title:        		Pregnancy Referal From 
+ Filename:     		PRF-DK 
+ AppointmentDate: 2025-05-29 
+ AppointmentName: Første besøg hos egen læge
+ Patient:         Pouline Peaux Röstemejer 2406879472
+ -->
+<ClinicalDocument moodCode="EVN" xmlns="urn:hl7-org:v3"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <realmCode code="DK"/>
+  <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+  <!-- MedCom templateId for Pregnancy Referal From-->
+  <templateId extension="2.0" root="1.2.208.184.19.1"/>
+  <!-- Unik ID for this PRF-DK instance -->
+  <id assigningAuthorityName="PLSP" extension="c4a1f93b-c73c-4991-aa29-c9ffe4b217df"
+    root="1.2.208.193"/>
+  <code code="PRF" codeSystem="1.2.208.184.100.1" codeSystemName="MedCom Message Codes"
+    displayName="Pregnancy Referal From"/>
+  <title>Pregnancy Referal From for 2406879472</title>
+  <!-- PRF-DK generated at:  -->
+  <effectiveTime value="20250529143030+0200"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+  <languageCode code="da-DK"/>
+  <!-- This recordTarget indentifies the patient and related information from CPR -->
+  <recordTarget contextControlCode="OP" typeCode="RCT">
+    <patientRole classCode="PAT">
+      <id assigningAuthorityName="CPR" extension="2406879472" root="1.2.208.176.1.2"/>
+      <!-- This is the address from CPR -->
+      <addr use="H">
+        <streetAddressLine>Mosegårdsparken 92</streetAddressLine>
+        <postalCode>6621</postalCode>
+        <city>København</city>
+        <country>DK</country>
+      </addr>
+      <patient classCode="PSN">
+        <name>
+          <given>Pouline</given>
+          <given>Peaux</given>
+          <family>Röstemejer</family>
+        </name>
+        <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1"/>
+        <birthTime value="19870624000000+0200"/>
+      </patient>
+      <providerOrganization>
+				<id assigningAuthorityName="SOR" extension="1411551000016000"
+					root="1.2.208.176.1.1"/>
+				<name>Lægerne i Sundhedshuset Hedehusene</name>
+			</providerOrganization>
+    </patientRole>
+  </recordTarget>
+  <author typeCode="AUT" contextControlCode="OP">
+    <time value="20250529143030+0200"/>
+    <!-- ClinicalDocument.author.assignedAuthor 1..1 -->
+    <assignedAuthor classCode="ASSIGNED">
+      <id extension="393421000016009" root="1.2.208.176.1.1" assigningAuthorityName="SOR"/>
+      <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+          <!-- Shall contain at least one given name -->
+          <prefix>læge</prefix>
+          <given>Beatrice</given>
+          <!-- Shall contain one family name -->
+          <family>Lund</family>
+        </name>
+      </assignedPerson>
+      <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id extension="393421000016009" root="1.2.208.176.1.1" assigningAuthorityName="SOR"/>
+        <name>Lægerne i Sundhedshuset Hedehusene</name>
+        <addr use="WP">
+          <streetAddressLine>Hotelvej 11</streetAddressLine>
+          <streetAddressLine>Hedehusene Region Hovedstaden</streetAddressLine>
+          <postalCode>2640</postalCode>
+          <city>Hedehusene</city>
+        </addr>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <!-- id @root is set to SDS-root-->
+        <id assigningAuthorityName="SOR" extension="634491000016008" root="1.2.208.176.1.1"/>
+        <name>Sundhedsdatastyrelsen</name>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <documentationOf typeCode="DOC">
+    <serviceEvent classCode="MPROT" moodCode="EVN">
+      <!--This
+      templateId tells that this serviceEvent holds the PRF-DK-v2.0 CDA profile -->
+      <templateId root="1.2.208.184.10.1.10"/>
+      <!--This
+      id @extension equals the identification and version of the CDA profile-->
+      <id assigningAuthorityName="MedCom" extension="PRF-DK-v2.0" root="1.2.208.184.100.10"/>
+    </serviceEvent>
+  </documentationOf>
+  <documentationOf typeCode="DOC">
+    <serviceEvent classCode="ACT" moodCode="EVN">
+    <!--This templateId tells that this serviceEvent holds the creation time of clinical content in this document -->
+      <templateId root="1.2.208.184.10.1.11"/>
+      <effectiveTime>
+        <low value="20250529143030+0200"/>
+        <high nullFlavor="NA"/>
+      </effectiveTime>
+    </serviceEvent>
+  </documentationOf>
+  <documentationOf typeCode="DOC">
+    <serviceEvent classCode="MPROT" moodCode="EVN">
+      <!--This
+          templateId tells that this serviceEvent holds the dokument episode-of-care UUID -->
+      <templateId root="1.2.208.184.10.1.12"/>
+      <!--This id @extension equals the pregnancy episode-of-care UUID -->
+      <id assigningAuthorityName="Sundhedsdatastyrelsen"
+        extension="4528a5b3-f633-4cc1-8231-38cc09f38ca2" root="1.2.208.176.7.4.1"/>
+    </serviceEvent>
+  </documentationOf>
+  <component contextConductionInd="true" typeCode="COMP">
+    <structuredBody classCode="DOCBODY" moodCode="EVN">
+<!-- Language - section -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Language - section template -->
+          <templateId root="1.2.208.184.19.2.1" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section template -->
+          <code code="363915008" displayName="træk vedr. tale og sprog"
+            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+          <title>træk vedr. tale og sprog</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>tolk påkrævet</td>
+                  <td>Nej</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Interpreter needed (finding) - observation body -->
+            <observation classCode="OBS" moodCode="EVN" negationInd="true">
+              <templateId root="1.2.208.184.19.2.2" extension="2025-07-09"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="315594003" displayName="tolk påkrævet" codeSystem="2.16.840.1.113883.6.96"
+                codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <!-- Physical data - section -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Physical data - section template -->
+          <templateId root="1.2.208.184.19.2.5" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section template -->
+          <code code="248326004" displayName="kropsparameter" codeSystem="2.16.840.1.113883.6.96"
+            codeSystemName="SNOMED CT"/>
+          <title>kropsparameter</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>selvrapporteret legemsvægt før graviditet</td>
+                  <td>108kg</td>
+                </tr>
+                <tr>
+                  <td>højde i stående stilling</td>
+                  <td>165cm</td>
+                </tr>
+                <tr>
+                  <td>bmi</td>
+                  <td>39.66kg/m^2</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Self reported pre-pregnancy body weight (observable entity) - [1..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Medcom "Self reported pre-pregnancy body weight (observable
+                   entity)" template -->
+              <templateId root="1.2.208.184.19.2.6" extension="2025-07-09"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <!-- The SNOMED code for the value being observed: Self reported
+                   pre-pregnancy body weight (observable entity) -->
+              <code code="1162389000"
+                displayName="selvrapporteret legemsvægt før graviditet Pt-Legeme; masse = ? kg"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <value xsi:type="PQ" unit="kg" value="108"/>
+            </observation>
+          </entry>
+          <entry>
+            <!-- Standing height (observable entity) - [1..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Medcom "Standing height (observable entity)" template -->
+              <templateId root="1.2.208.184.19.2.7" extension="2025-07-09"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <!-- The SNOMED code for the value being observed: Standing height
+                   (observable entity) -->
+              <code code="248333004" displayName="højde i stående stilling"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <value xsi:type="PQ" unit="cm" value="165"/>
+            </observation>
+          </entry>
+          <entry>
+            <!-- Body mass index (observable entity) - [1..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Medcom "Body mass index (observable entity)" template -->
+              <templateId root="1.2.208.184.19.2.8" extension="2025-07-09"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <!-- The SNOMED code for the value being observed: Body mass index
+                   (observable entity) -->
+              <code code="60621009" displayName="body mass index"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <value xsi:type="PQ" unit="kg/m^2" value="39.66"/>
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <!-- Social relations - section -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Social relations - section template -->
+          <templateId root="1.2.208.184.19.2.9" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section template -->
+          <code code="302160007" displayName="træk vedr. sociale og personlige forhold"
+            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+          <title>træk vedr. sociale og personlige forhold</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>bor alene</td>
+                  <td>Nej</td>
+                </tr>
+                <tr>
+                  <td>partner i forhold</td>
+                  <td>Troels Baron</td>
+                </tr>
+                <tr>
+                  <td>ægteskabelig status eller partnerstatus</td>
+                  <td>Ægtefælle</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Lives alone (finding) - [0..1] -->
+            <observation classCode="OBS" moodCode="EVN" negationInd="true">
+              <templateId root="1.2.208.184.19.2.10" extension="2025-07-09"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="105529008" displayName="bor alene" codeSystem="2.16.840.1.113883.6.96"
+                codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <!-- No value element -->
+            </observation>
+          </entry>
+          <entry>
+            <!-- Partner in relationship (person) - [0..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Medcom "Partner in relationship (person)" template -->
+              <templateId root="1.2.208.184.19.2.12" extension="2025-07-09"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <!-- The SNOMED code for the value being observed: Partner in
+                   relationship (person) -->
+              <code code="262043009" displayName="partner i forhold"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <value xsi:type="PN">
+                <given>Troels</given>
+                
+                <family>Baron</family>
+              </value>
+              <!-- Marital or partnership status (observable entity) - [0..1] -->
+              <entryRelationship typeCode="COMP">
+                <observation classCode="OBS" moodCode="EVN">
+                  <!-- Marital or partnership status (observable entity) -
+                       observation template -->
+                  <templateId root="1.2.208.184.19.2.13" extension="2025-07-09"/>
+                  <templateId root="2.16.840.1.113883.10.12.303"/>
+                  <!-- HL7 CDA observation template -->
+                  <code code="224083004" displayName="ægteskabelig status eller partnerstatus"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime nullFlavor="NI"/>
+                  <value xsi:type="CD" code="127848009" displayName="Ægtefælle"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                </observation>
+              </entryRelationship>
+            </observation>
+            </entry>
+        </section>
+      </component>
+      <!-- Prior birth - section -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Prior birth - section-template  -->
+          <templateId root="1.2.208.184.19.2.15" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section-template  -->
+          <code code="248983002" displayName="træk vedr. tidligere fødsler"
+            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+          <title>obstetrisk anamnese</title>									
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Fødsel</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>fødested</td>
+                  <td>Gentofte</td>
+                </tr>
+                <tr>
+                  <td>gestationsalder</td>
+                  <td>40+3</td>
+                </tr>
+                <tr>
+                  <td>normalt puerperium</td>
+                  <td>Nej</td>
+                </tr>
+                <tr>
+                  <td>fødselsoplevelse</td>
+                  <td>Traumatisk</td>
+                </tr>
+                <tr>
+                  <td>moderens tilstand i puerperiet</td>
+                  <td>RaskStore smerter, modtog Morfin SAD efter aftale med lægen, begrænset indtag grundet amning.</td>
+                </tr>
+                <tr>
+                  <td>træk vedr. graviditet</td>
+                  <td>Graviditets diabetes</td>
+                </tr>
+                <tr>
+                  <td>relevant information</td>
+                  <td>Graviditets diabetes, hurtigt voksende foster</td>
+                </tr>
+                <tr>
+                  <td>træk vedr. fødselsprocessen</td>
+                  <td>Akut kejsersnit</td>
+                </tr>
+                <tr>
+                  <td>relevant information</td>
+                  <td>Føtus magnus, disproportio</td>
+                </tr>
+                <tr>
+                  <td>Barn</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>fødselsudfald</td>
+                  <td>Levendefødt</td>
+                </tr>
+                <tr>
+                  <td>køn</td>
+                  <td>Dreng</td>
+                </tr>
+                <tr>
+                  <td>fødselsvægt</td>
+                  <td>4500</td>
+                </tr>
+                <tr>
+                  <td>barnedød</td>
+                  <td>Nej</td>
+                </tr>
+                <tr>
+                  <td>neonataltilstand</td>
+                  <td>Ja, grundet graviditetsdiabetes</td>
+                </tr>
+                <tr>
+                  <td>helbredstilstand hos barn</td>
+                  <td>Rask</td>
+                </tr>
+                <tr>
+                  <td>Fødsel</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>fødested</td>
+                  <td>Gentofte</td>
+                </tr>
+                <tr>
+                  <td>gestationsalder</td>
+                  <td>39+5</td>
+                </tr>
+                <tr>
+                  <td>normalt puerperium</td>
+                  <td>Ja</td>
+                </tr>
+                <tr>
+                  <td>fødselsoplevelse</td>
+                  <td>Dårlig</td>
+                </tr>
+                <tr>
+                  <td>træk vedr. graviditet</td>
+                  <td>Graviditets diabetes</td>
+                </tr>
+                <tr>
+                  <td>træk vedr. fødselsprocessen</td>
+                  <td>Elektivt kejsernsnit</td>
+                </tr>
+                <tr>
+                  <td>Barn</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>fødselsudfald</td>
+                  <td>Levendefødt</td>
+                </tr>
+                <tr>
+                  <td>køn</td>
+                  <td>Dreng</td>
+                </tr>
+                <tr>
+                  <td>fødselsvægt</td>
+                  <td>4800</td>
+                </tr>
+                <tr>
+                  <td>barnedød</td>
+                  <td>Nej</td>
+                </tr>
+                <tr>
+                  <td>helbredstilstand hos barn</td>
+                  <td>Rask</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Prior Birth - [1..*] no 1 -->
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <!-- Prior Birth - organizer-template -->
+              <templateId root="1.2.208.184.19.2.16" extension="2025-07-09"/>
+              <templateId root="2.16.840.1.113883.10.12.305"/>
+              <!-- HL7 CDA organizer-template -->
+              <code code="364319003" displayName="træk vedr. graviditet, fødsel og barsel"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <component>
+                <!-- place of birth - [0..1] -->
+                <observation classCode="OBS" moodCode="EVN">
+                  <!-- Medcom "Place of birth" template -->
+                  <templateId root="1.2.208.184.19.2.17" extension="2025-07-09"/>
+                  <!-- HL7 CDA observation-template -->
+                  <templateId root="2.16.840.1.113883.10.12.303"/>
+                  <!-- The SNOMED code for the value being observed: Place of
+                       birth -->
+                  <code code="169812000" displayName="fødested" codeSystem="2.16.840.1.113883.6.96"
+                    codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime nullFlavor="NI"/>
+                  <value xsi:type="ST">Gentofte</value>
+                </observation>
+              </component>
+              <component>
+                <!-- Gestional age - [0..1] -->
+                <observation classCode="OBS" moodCode="EVN">
+                  <!-- Medcom "Gestional age" template -->
+                  <templateId root="1.2.208.184.19.2.18" extension="2025-07-09"/>
+                  <!-- HL7 CDA observation-template -->
+                  <templateId root="2.16.840.1.113883.10.12.303"/>
+                  <!-- The SNOMED code for the value being observed: Gestional age -->
+                  <code code="598151000005105" displayName="gestationsalder"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime nullFlavor="NI"/>
+                  <value xsi:type="PQ" unit="d" value="283"/>
+                </observation>
+              </component>
+              <component>
+                <!-- Child - [1..*]  no 1 -->
+                <organizer classCode="CLUSTER" moodCode="EVN">
+                  <!-- Child - organizer-template -->
+                  <templateId root="1.2.208.184.19.2.19" extension="2025-07-09"/>
+                  <templateId root="2.16.840.1.113883.10.12.305"/>
+                  <!-- HL7 CDA organizer-template -->
+                  <code code="224117009" displayName="oplysninger om egne børn"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime nullFlavor="NI"/>
+                  <component>
+                    <!-- Birth outcome - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Birth outcome - observation-template -->
+                      <templateId root="1.2.208.184.19.2.20" extension="2025-07-09"/>
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- HL7 CDA observation-template -->
+                      <code code="364587008" displayName="fødselsudfald"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <value xsi:type="CD" code="281050002" displayName="Levendefødt"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                    </observation>
+                  </component>
+                  <component>
+                    <!-- Gender - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Gender - observation-template -->
+                      <templateId root="1.2.208.184.19.2.21" extension="2025-07-09"/>
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- HL7 CDA observation-template -->
+                      <code code="263495000" displayName="køn" codeSystem="2.16.840.1.113883.6.96"
+                        codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <value xsi:type="CD" code="169838000" displayName="Dreng"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                    </observation>
+                  </component>
+                  <component>
+                    <!-- Birth weight - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Medcom "Birth weight" template -->
+                      <templateId root="1.2.208.184.19.2.22" extension="2025-07-09"/>
+                      <!-- HL7 CDA observation-template -->
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- The SNOMED code for the value being observed: Birth
+                           weight -->
+                      <code code="364589006" displayName="fødselsvægt"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <value xsi:type="PQ" unit="g" value="4500"/>
+                    </observation>
+                  </component>
+                  <component>
+                    <!-- Health status of child - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Medcom "Health status of child" template -->
+                      <templateId root="1.2.208.184.19.2.23" extension="2025-07-09"/>
+                      <!-- HL7 CDA observation-template -->
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- The SNOMED code for the value being observed:
+                           Health status of child -->
+                      <code code="617951000005104" displayName="helbredstilstand hos barn"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <value xsi:type="ST">Rask</value>
+                    </observation>
+                  </component>
+                  <component>
+                    <!-- Child Death - [0..1] -->
+                    <!-- The observation has been negated, meaning that there is
+                         no finding for Child Death. -->
+                    <observation classCode="OBS" moodCode="EVN" negationInd="true">
+                      <templateId root="1.2.208.184.19.2.90" extension="2025-07-09"/>
+                      <!-- HL7 CDA observation-template -->
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <code code="598121000005103" displayName="barnedød"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <!-- No value element -->
+                    </observation>
+                  </component>
+                  <component>
+                    <!-- Neonatal condition - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Medcom "Neonatal condition" template -->
+                      <templateId root="1.2.208.184.19.2.91" extension="2025-07-09"/>
+                      <!-- HL7 CDA observation-template -->
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- The SNOMED code for the value being observed:
+                           Neonatal condition -->
+                      <code code="249222005" displayName="neonataltilstand"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <value xsi:type="ST">Ja, grundet graviditetsdiabetes</value>
+                    </observation>
+                  </component>
+                </organizer>
+              </component>
+              <component>
+                <!-- Pregnancy observable - [0..1] -->
+                <organizer classCode="CLUSTER" moodCode="EVN">
+                  <!-- Pregnancy observable - organizer-template -->
+                  <templateId root="1.2.208.184.19.2.24" extension="2025-07-09"/>
+                  <templateId root="2.16.840.1.113883.10.12.305"/>
+                  <!-- HL7 CDA organizer-template -->
+                  <code code="364320009" displayName="træk vedr. graviditet"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime nullFlavor="NI"/>
+                  
+                  <component>
+                    <!-- Pregnancy observable - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Pregnancy observable - observation-template -->
+                      <templateId root="1.2.208.184.19.2.25" extension="2025-07-09"/>
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- HL7 CDA observation-template -->
+                      <code code="364320009" displayName="træk vedr. graviditet"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                        <value xsi:type="CD" code="199223000"
+                            displayName="Graviditets diabetes"
+                            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                    </observation>
+                  </component>
+                  <component>
+                    <!-- Pertinent information - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Medcom "Pertinent information" template -->
+                      <templateId root="1.2.208.184.19.2.89" extension="2025-07-09"/>
+                      <!-- HL7 CDA observation-template -->
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- The SNOMED code for the value being observed:
+                           Pertinent information -->
+                      <code code="398005008" displayName="relevant information"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <value xsi:type="ST">Graviditets diabetes, hurtigt voksende foster</value>
+                    </observation>
+                  </component>
+                </organizer>
+              </component>
+              <component>
+                <!-- Labor observable - [0..1] -->
+                <organizer classCode="CLUSTER" moodCode="EVN">
+                  <!-- Labor observable - organizer-template -->
+                  <templateId root="1.2.208.184.19.2.26" extension="2025-07-09"/>
+                  <templateId root="2.16.840.1.113883.10.12.305"/>
+                  <!-- HL7 CDA organizer-template -->
+                  <code code="364328002" displayName="træk vedr. fødselsprocessen"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="2018"/>
+                  <component>
+                    <!-- Labor observable - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Labor observable - observation-template -->
+                      <templateId root="1.2.208.184.19.2.27" extension="2025-07-09"/>
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- HL7 CDA observation-template -->
+                      <code code="364328002" displayName="træk vedr. fødselsprocessen"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                        <value xsi:type="CD" code="274130007"
+                            displayName="Akut kejsersnit"
+                            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                    </observation>
+                  </component>
+   
+                  <component>
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Childbirth experience - observation-template -->
+                      <templateId root="1.2.208.184.19.2.28" extension="2025-07-09"/>
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- HL7 CDA observation-template -->
+                      <code code="598271000005107" displayName="fødselsoplevelse"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <value xsi:type="CD" code="263904004" displayName="Traumatisk"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                    </observation>
+                  </component>
+                  <component>
+                    <!-- Pertinent information - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Medcom "Pertinent information" template -->
+                      <templateId root="1.2.208.184.19.2.89" extension="2025-07-09"/>
+                      <!-- HL7 CDA observation-template -->
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- The SNOMED code for the value being observed:
+                           Pertinent information -->
+                      <code code="398005008" displayName="relevant information"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <value xsi:type="ST">Føtus magnus, disproportio</value>
+                    </observation>
+                  </component>
+                </organizer>
+              </component>
+              <component>
+                <!-- Puerperium observable - [0..1] -->
+                <organizer classCode="CLUSTER" moodCode="EVN">
+                  <!-- Puerperium observable - organizer-template -->
+                  <templateId root="1.2.208.184.19.2.29" extension="2025-07-09"/>
+                  <templateId root="2.16.840.1.113883.10.12.305"/>
+                  <!-- HL7 CDA organizer-template -->
+                  <code code="597951000005108" displayName="træk vedr. barsel"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime nullFlavor="NI"/>
+                  <component>
+                    <!-- Uncomplicated puerperium - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN" negationInd="true">
+                      <templateId root="1.2.208.184.19.2.30" extension="2025-07-09"/>
+                      <!-- HL7 CDA observation-template -->
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <code code="597961000005105" displayName="normalt puerperium"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <!-- No value element -->
+                    </observation>
+                  </component>
+                  <component>
+                    <!-- Maternal condition during puerperium - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Medcom "Maternal condition during puerperium"
+                           template -->
+                      <templateId root="1.2.208.184.19.2.31" extension="2025-07-09"/>
+                      <!-- HL7 CDA observation-template -->
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- The SNOMED code for the value being observed:
+                           Maternal condition during puerperium -->
+                      <code code="249197004" displayName="moderens tilstand i puerperiet"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <value xsi:type="ST">RaskStore smerter, modtog Morfin SAD efter aftale med lægen, begrænset indtag grundet amning.</value>
+                    </observation>
+                  </component>
+                </organizer>
+              </component>
+            </organizer>
+          </entry>
+          <entry>
+            <!-- Prior Birth - [1..*] no 2 -->
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <!-- Prior Birth - organizer-template -->
+              <templateId root="1.2.208.184.19.2.16" extension="2025-07-09"/>
+              <templateId root="2.16.840.1.113883.10.12.305"/>
+              <!-- HL7 CDA organizer-template -->
+              <code code="364319003" displayName="træk vedr. graviditet, fødsel og barsel"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <component>
+                <!-- place of birth - [0..1] -->
+                <observation classCode="OBS" moodCode="EVN">
+                  <!-- Medcom "Place of birth" template -->
+                  <templateId root="1.2.208.184.19.2.17" extension="2025-07-09"/>
+                  <!-- HL7 CDA observation-template -->
+                  <templateId root="2.16.840.1.113883.10.12.303"/>
+                  <!-- The SNOMED code for the value being observed: Place of
+                       birth -->
+                  <code code="169812000" displayName="fødested" codeSystem="2.16.840.1.113883.6.96"
+                    codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime nullFlavor="NI"/>
+                  <value xsi:type="ST">Gentofte</value>
+                </observation>
+              </component>
+              <component>
+                <!-- Gestional age - [0..1] -->
+                <observation classCode="OBS" moodCode="EVN">
+                  <!-- Medcom "Gestional age" template -->
+                  <templateId root="1.2.208.184.19.2.18" extension="2025-07-09"/>
+                  <!-- HL7 CDA observation-template -->
+                  <templateId root="2.16.840.1.113883.10.12.303"/>
+                  <!-- The SNOMED code for the value being observed: Gestional age -->
+                  <code code="598151000005105" displayName="gestationsalder"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime nullFlavor="NI"/>
+                  <value xsi:type="PQ" unit="d" value="278"/>
+                </observation>
+              </component>
+              <component>
+                <!-- Child - [1..*]  no 1 -->
+                <organizer classCode="CLUSTER" moodCode="EVN">
+                  <!-- Child - organizer-template -->
+                  <templateId root="1.2.208.184.19.2.19" extension="2025-07-09"/>
+                  <templateId root="2.16.840.1.113883.10.12.305"/>
+                  <!-- HL7 CDA organizer-template -->
+                  <code code="224117009" displayName="oplysninger om egne børn"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime nullFlavor="NI"/>
+                  <component>
+                    <!-- Birth outcome - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Birth outcome - observation-template -->
+                      <templateId root="1.2.208.184.19.2.20" extension="2025-07-09"/>
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- HL7 CDA observation-template -->
+                      <code code="364587008" displayName="fødselsudfald"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <value xsi:type="CD" code="281050002" displayName="Levendefødt"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                    </observation>
+                  </component>
+                  <component>
+                    <!-- Gender - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Gender - observation-template -->
+                      <templateId root="1.2.208.184.19.2.21" extension="2025-07-09"/>
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- HL7 CDA observation-template -->
+                      <code code="263495000" displayName="køn" codeSystem="2.16.840.1.113883.6.96"
+                        codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <value xsi:type="CD" code="169838000" displayName="Dreng"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                    </observation>
+                  </component>
+                  <component>
+                    <!-- Birth weight - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Medcom "Birth weight" template -->
+                      <templateId root="1.2.208.184.19.2.22" extension="2025-07-09"/>
+                      <!-- HL7 CDA observation-template -->
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- The SNOMED code for the value being observed: Birth
+                           weight -->
+                      <code code="364589006" displayName="fødselsvægt"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <value xsi:type="PQ" unit="g" value="4800"/>
+                    </observation>
+                  </component>
+                  <component>
+                    <!-- Health status of child - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Medcom "Health status of child" template -->
+                      <templateId root="1.2.208.184.19.2.23" extension="2025-07-09"/>
+                      <!-- HL7 CDA observation-template -->
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- The SNOMED code for the value being observed:
+                           Health status of child -->
+                      <code code="617951000005104" displayName="helbredstilstand hos barn"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <value xsi:type="ST">Rask</value>
+                    </observation>
+                  </component>
+                  <component>
+                    <!-- Child Death - [0..1] -->
+                    <!-- The observation has been negated, meaning that there is
+                         no finding for Child Death. -->
+                    <observation classCode="OBS" moodCode="EVN" negationInd="true">
+                      <templateId root="1.2.208.184.19.2.90" extension="2025-07-09"/>
+                      <!-- HL7 CDA observation-template -->
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <code code="598121000005103" displayName="barnedød"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <!-- No value element -->
+                    </observation>
+                  </component>
+                </organizer>
+              </component>
+              <component>
+                <!-- Pregnancy observable - [0..1] -->
+                <organizer classCode="CLUSTER" moodCode="EVN">
+                  <!-- Pregnancy observable - organizer-template -->
+                  <templateId root="1.2.208.184.19.2.24" extension="2025-07-09"/>
+                  <templateId root="2.16.840.1.113883.10.12.305"/>
+                  <!-- HL7 CDA organizer-template -->
+                  <code code="364320009" displayName="træk vedr. graviditet"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime nullFlavor="NI"/>
+                  
+                  <component>
+                    <!-- Pregnancy observable - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Pregnancy observable - observation-template -->
+                      <templateId root="1.2.208.184.19.2.25" extension="2025-07-09"/>
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- HL7 CDA observation-template -->
+                      <code code="364320009" displayName="træk vedr. graviditet"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                        <value xsi:type="CD" code="199223000"
+                            displayName="Graviditets diabetes"
+                            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                    </observation>
+                  </component>
+                </organizer>
+              </component>
+              <component>
+                <!-- Labor observable - [0..1] -->
+                <organizer classCode="CLUSTER" moodCode="EVN">
+                  <!-- Labor observable - organizer-template -->
+                  <templateId root="1.2.208.184.19.2.26" extension="2025-07-09"/>
+                  <templateId root="2.16.840.1.113883.10.12.305"/>
+                  <!-- HL7 CDA organizer-template -->
+                  <code code="364328002" displayName="træk vedr. fødselsprocessen"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="2021"/>
+                  <component>
+                    <!-- Labor observable - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Labor observable - observation-template -->
+                      <templateId root="1.2.208.184.19.2.27" extension="2025-07-09"/>
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- HL7 CDA observation-template -->
+                      <code code="364328002" displayName="træk vedr. fødselsprocessen"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                        <value xsi:type="CD" code="177141003"
+                            displayName="Elektivt kejsernsnit"
+                            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                    </observation>
+                  </component>
+   
+                  <component>
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- Childbirth experience - observation-template -->
+                      <templateId root="1.2.208.184.19.2.28" extension="2025-07-09"/>
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <!-- HL7 CDA observation-template -->
+                      <code code="598271000005107" displayName="fødselsoplevelse"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <value xsi:type="CD" code="556001" displayName="Dårlig"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                    </observation>
+                  </component>
+                </organizer>
+              </component>
+              <component>
+                <!-- Puerperium observable - [0..1] -->
+                <organizer classCode="CLUSTER" moodCode="EVN">
+                  <!-- Puerperium observable - organizer-template -->
+                  <templateId root="1.2.208.184.19.2.29" extension="2025-07-09"/>
+                  <templateId root="2.16.840.1.113883.10.12.305"/>
+                  <!-- HL7 CDA organizer-template -->
+                  <code code="597951000005108" displayName="træk vedr. barsel"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime nullFlavor="NI"/>
+                  <component>
+                    <!-- Uncomplicated puerperium - [0..1] -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="1.2.208.184.19.2.30" extension="2025-07-09"/>
+                      <!-- HL7 CDA observation-template -->
+                      <templateId root="2.16.840.1.113883.10.12.303"/>
+                      <code code="597961000005105" displayName="normalt puerperium"
+                        codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime nullFlavor="NI"/>
+                      <!-- No value element -->
+                    </observation>
+                  </component>
+                </organizer>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+      <!-- Prior abort - section   -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Prior abort - section template -->
+          <templateId root="1.2.208.184.19.2.32" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section template -->
+          <code code="713651007" displayName="anamnese med abort"
+            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+          <title>anamnese med abort</title>
+         <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Abort</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>træk vedr. spontan eller provokeret abort</td>
+                  <td>Provokeret</td>
+                </tr>
+                <tr>
+                  <td>År/dato for abort</td>
+                  <td>2025</td>
+                </tr>
+                <tr>
+                  <td>graviditetsuge</td>
+                  <td>10</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+         <entry>
+            <!-- Abortive outcome observable (observable entity) - [1..*] -->
+            <!-- Abortion #1 -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Abortive outcome observable (observable entity) - observation
+                   template -->
+              <templateId root="1.2.208.184.19.2.33" extension="2025-07-09"/>
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <!-- HL7 CDA observation template -->
+              <code code="597931000005103" displayName="træk vedr. spontan eller provokeret abort"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime value="2025"/>
+              <value xsi:type="CD" code="57797005" displayName="Provokeret"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <!-- Gestational week (observable entity) - [0..1] -->
+              <entryRelationship typeCode="COMP">
+                <observation classCode="OBS" moodCode="EVN">
+                  <!-- Medcom "Gestational week (observable entity)" template -->
+                  <templateId root="1.2.208.184.19.2.34" extension="2025-07-09"/>
+                  <!-- HL7 CDA observation template -->
+                  <templateId root="2.16.840.1.113883.10.12.303"/>
+                  <!-- The SNOMED code for the value being observed: Gestational
+                       week (observable entity) -->
+                  <code code="598141000005108" displayName="graviditetsuge"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime nullFlavor="NI"/>
+                  <value xsi:type="PQ" unit="wk" value="10"/>
+                </observation>
+              </entryRelationship>
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <!-- Fertility treatment -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Fertility treatment - section template -->
+          <templateId root="1.2.208.184.19.2.35" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section template -->
+          <code code="55767001" displayName="fertilisering" codeSystem="2.16.840.1.113883.6.96"
+            codeSystemName="SNOMED CT"/>
+          <title>fertilisering</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>reproduktionsrelateret procedure</td>
+                  <td>Nej</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Procedure related to reproduction (procedure) - [0..1] -->
+            <observation classCode="OBS" moodCode="EVN" negationInd="true">
+              <templateId root="1.2.208.184.19.2.36" extension="2025-07-09"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="773261007" displayName="reproduktionsrelateret procedure"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <!-- No value element -->
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <!-- Family history of hereditary disease (situation) -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Family history of hereditary disease (situation) - section template -->
+          <templateId root="1.2.208.184.19.2.39" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section template -->
+          <code code="416471007" displayName="familieanamnese: klinisk fund"
+            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+          <title>familieanamnese: klinisk fund</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>familieanamnese: medfødt misdannelse</td>
+                  <td>Nej</td>
+                </tr>
+                <tr>
+                  <td>familieanamnese med arvelig sygdom</td>
+                  <td>Ja, har krævet behandling</td>
+                </tr>
+                <tr>
+                  <td>arvelig sygdom hos familiemedlem</td>
+                  <td>Disponering for graviditetsdiabetes</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Family history of congenital malformation (situation) - [0..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Family history of congenital malformation (situation) - observation
+                   template -->
+              <templateId root="1.2.208.184.19.2.40" extension="2025-07-09"/>
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <!-- HL7 CDA observation template -->
+              <code code="597941000005106" displayName="familieanamnese: medfødt misdannelse"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <value xsi:type="CD" code="373067005" displayName="Nej"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+            </observation>
+          </entry>
+          <entry>
+            <!-- Family history of hereditary disease (situation) - [0..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Family history of hereditary disease (situation) - observation
+                   template -->
+              <templateId root="1.2.208.184.19.2.42" extension="2025-07-09"/>
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <!-- HL7 CDA observation template -->
+              <code code="429962007" displayName="familieanamnese med arvelig sygdom"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <value xsi:type="CD" code="608061000005101" displayName="Ja, har krævet behandling"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+            </observation>
+          </entry>
+          <entry>
+            <!-- Hereditary disease of family member (observable entity) - [0..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Medcom "Hereditary disease of family member (observable entity)"
+                   template -->
+              <templateId root="1.2.208.184.19.2.43" extension="2025-07-09"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <!-- The SNOMED code for the value being observed: Hereditary disease of
+                   family member (observable entity) -->
+              <code code="648001000005109" displayName="arvelig sygdom hos familiemedlem"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <value xsi:type="ST">Disponering for graviditetsdiabetes</value>
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <!-- Antenatal ultrasound finding (observable entity)  -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Antenatal ultrasound finding (observable entity) - section template -->
+          <templateId root="1.2.208.184.19.2.50" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section template -->
+          <code code="304602002" displayName="fund ved prænatal ultralyd"
+            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+          <title>fund ved prænatal ultralyd</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>prænatal ultralydsundersøgelse i 1. trimester ønskes</td>
+                  <td>Ja</td>
+                </tr>
+                <tr>
+                  <td>prænatal ultralydsundersøgelse i 2. trimester ønskes</td>
+                  <td>Ja</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Antenatal ultrasound scan in first trimester wanted (finding) - [1..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <templateId root="1.2.208.184.19.2.51" extension="2025-07-09"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="567961000005108"
+                displayName="prænatal ultralydsundersøgelse i 1. trimester ønskes"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <!-- No value element -->
+            </observation>
+          </entry>
+          <entry>
+            <!-- Antenatal ultrasound scan in second trimester wanted (finding) - [1..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <templateId root="1.2.208.184.19.2.52" extension="2025-07-09"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="567981000005100"
+                displayName="prænatal ultralydsundersøgelse i 2. trimester ønskes"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <!-- No value element -->
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <!-- Antenatal risk assessment wanted (finding) -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Antenatal risk assessment wanted (finding) - section template -->
+          <templateId root="1.2.208.184.19.2.53" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section template -->
+          <code code="568011000005108" displayName="prænatal risikovurdering ønskes"
+            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+          <title>prænatal risikovurdering ønskes</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>prænatal risikovurdering ønskes</td>
+                  <td>Ja</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Antenatal risk assessment wanted (finding) - [1..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <templateId root="1.2.208.184.19.2.54" extension="2025-07-09"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="568011000005108" displayName="prænatal risikovurdering ønskes"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <!-- No value element -->
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <!-- Consanguinity (finding) -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Consanguinity (finding) - section template -->
+          <templateId root="1.2.208.184.19.2.55" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section template -->
+          <code code="842009" displayName="konsangvinitet" codeSystem="2.16.840.1.113883.6.96"
+            codeSystemName="SNOMED CT"/>
+          <title>konsangvinitet</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>konsangvinitet</td>
+                  <td>Nej</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Consanguinity (finding) - [1..1] -->
+            <observation classCode="OBS" moodCode="EVN" negationInd="true">
+              <templateId root="1.2.208.184.19.2.56" extension="2025-07-09"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="842009" displayName="konsangvinitet" codeSystem="2.16.840.1.113883.6.96"
+                codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <!-- No value element -->
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <!-- Fetal Allergy Status (observable entity) -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Fetal Allergy Status - section template -->
+          <templateId root="1.2.208.184.19.2.67" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/> <!-- HL7 CDA section template -->
+          <code code="568301000005107" displayName="fosters allergistatus"
+            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+          <title>fosters allergistatus</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>allergisk disposition</td>
+                  <td>Enkelt (forældre/søskende)</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Allergic disposition (finding) - [0..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Allergic disposition (finding) - observation template -->
+              <templateId root="1.2.208.184.19.2.70" extension="2025-07-09"/>
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <!-- HL7 CDA observation template -->
+              <code code="609328004" displayName="allergisk disposition"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <value xsi:type="CD" code="568071000005101" displayName="Enkelt (forældre/søskende)"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <!-- Allergy Status (observable entity) -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Allergic Status (observable entity) - section template -->
+          <templateId root="1.2.208.184.19.2.94" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section template -->
+          <code code="1300212001" displayName="allergistatus"
+            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+          <title>allergistatus</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>allergisk sygdom</td>
+                  <td>Ja</td>
+                </tr>
+                <tr>
+                  <td>forårsagende agens</td>
+                  <td>Skaldyr og svovl</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Allergy Disorder (disorder) - [0..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <templateId root="1.2.208.184.19.2.68" extension="2025-07-09"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="781474001" displayName="allergisk sygdom"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <!-- No value element -->
+              <!-- Causative agent (attribute) - [0..1] -->
+              <entryRelationship typeCode="COMP">
+                <observation classCode="OBS" moodCode="EVN">
+                  <!-- Medcom "Causative agent (attribute)" template -->
+                  <templateId root="1.2.208.184.19.2.69" extension="2025-07-09"/>
+                  <!-- HL7 CDA observation template -->
+                  <templateId root="2.16.840.1.113883.10.12.303"/>
+                  <!-- The SNOMED code for the value being observed: Causative
+                       agent (attribute) -->
+                  <code code="246075003" displayName="forårsagende agens"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime nullFlavor="NI"/>
+                  <value xsi:type="ST">Skaldyr og svovl</value>
+                </observation>
+              </entryRelationship>
+            </observation>
+          </entry>
+        </section>
+      </component>
+
+      <!-- Past history of procedure -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- Past history of procedure - section-template -->
+          <templateId root="1.2.208.184.19.2.76" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section-template -->
+          <code code="416940007" displayName="anamnese med indgreb"
+            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+          <title>anamnese med indgreb</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>sygehistorie: operation</td>
+                  <td>Ja</td>
+                </tr>
+                <tr>
+                  <td>Implantat</td>
+                  <td>2019</td>
+                </tr>
+                <tr>
+                  <td>Gastrisk sleeve</td>
+                  <td>2020</td>
+                </tr>
+                <tr>
+                  <td>Keglesnitsoperation</td>
+                  <td>2018</td>
+                </tr>
+                <tr>
+                  <td>Keglesnitsoperation</td>
+                  <td>2021</td>
+                </tr>
+                <tr>
+                  <td>relevant information</td>
+                  <td>Mavesæk igen ved normal størrelse efter gastrisk sleeve. Vægttab reduceret tilbage til som før gastric sleeve.</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- History of surgery - [1..1] if not negated, there is a history of surgery-->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- History of surgery - observation-template -->
+              <templateId root="1.2.208.184.19.2.77" extension="2025-07-09"/>
+              <!-- HL7 CDA observation-template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="161615003" displayName="sygehistorie: operation"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+            </observation>
+          </entry>
+          <entry>
+            <!-- Prior Surgery - [0..*] entry nr 1 -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Prior Surgery - observation-template -->
+              <templateId root="1.2.208.184.19.2.92" extension="2025-07-09"/>
+              <!-- HL7 CDA observation-template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="302343007" displayName="indsættelse af protese i bryst"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <!-- Surgery took place in 2019 -->
+              <effectiveTime value="2019"/>
+            </observation>
+          </entry>
+          <entry>
+            <!-- Prior Surgery - [0..*] entry nr 2 -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Prior Surgery - observation-template -->
+              <templateId root="1.2.208.184.19.2.92" extension="2025-07-09"/>
+              <!-- HL7 CDA observation-template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="87604009" displayName="sleeve-resektion af mavesækken"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <!-- Surgery took place in 2020 -->
+              <effectiveTime value="2020"/>
+            </observation>
+          </entry>
+          <entry>
+            <!-- Prior Surgery - [0..*] entry nr 3 -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Prior Surgery - observation-template -->
+              <templateId root="1.2.208.184.19.2.92" extension="2025-07-09"/>
+              <!-- HL7 CDA observation-template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="54535009" displayName="keglebiopsi af cervix"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <!-- Surgery took place in 2018 -->
+              <effectiveTime value="2018"/>
+            </observation>
+          </entry>
+          <entry>
+            <!-- Prior Surgery - [0..*] entry nr 4 -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Prior Surgery - observation-template -->
+              <templateId root="1.2.208.184.19.2.92" extension="2025-07-09"/>
+              <!-- HL7 CDA observation-template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="54535009" displayName="keglebiopsi af cervix"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <!-- Surgery took place in 2021 -->
+              <effectiveTime value="2021"/>
+            </observation>
+          </entry>
+          <entry>
+            <!-- Pertinent information - [0..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Medcom "Pertinent information" template -->
+              <templateId root="1.2.208.184.19.2.89" extension="2025-07-09"/>
+              <!-- HL7 CDA observation template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <!-- The SNOMED code for the value being observed: Pertinent information-->
+              <code code="398005008" displayName="relevant information"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <value xsi:type="ST">Mavesæk igen ved normal størrelse efter gastrisk sleeve. Vægttab reduceret tilbage til som før gastric sleeve.</value>
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <!-- History of disorder -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- History of disorder - section-template  -->
+          <templateId root="1.2.208.184.19.2.78" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section-template  -->
+          <code code="312850006" displayName="sygehistorie: sygdom"
+            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+          <title>sygehistorie: sygdom</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>sygdom</td>
+                  <td>Ja</td>
+                </tr>
+                <tr>
+                  <td>Type 2-diabetes</td>
+                  <td/>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Disease [1..1] -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Disease - observation-template -->
+              <templateId root="1.2.208.184.19.2.79" extension="2025-07-09"/>
+              <!-- HL7 CDA observation-template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="64572001" displayName="sygdom" codeSystem="2.16.840.1.113883.6.96"
+                codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+            </observation>
+          </entry>
+          <!-- Specific Disease [0..*] entry nr 1  -->
+          <entry>
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Specific Disease - observation-template -->
+              <templateId root="1.2.208.184.19.2.93" extension="2025-07-09"/>
+              <!-- HL7 CDA observation-template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="44054006" displayName="type 2-diabetes mellitus" codeSystem="2.16.840.1.113883.6.96"
+                codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <!-- History of psychiatric disorder -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <!-- History of psychiatric disorder - section-template  -->
+          <templateId root="1.2.208.184.19.2.80" extension="2025-07-09"/>
+          <templateId root="2.16.840.1.113883.10.12.201"/>
+          <!-- HL7 CDA section-template  -->
+          <code code="161464003" displayName="sygehistorie: psykisk lidelse"
+            codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+          <title>sygehistorie: psykisk lidelse</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Udsagn</th>
+                  <th>Værdi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>psykisk lidelse</td>
+                  <td>Nej</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <!-- Mental disorder - [1..1] -->
+            <observation classCode="OBS" moodCode="EVN" negationInd="true">
+              <templateId root="1.2.208.184.19.2.81" extension="2025-07-09"/>
+              <!-- HL7 CDA observation-template -->
+              <templateId root="2.16.840.1.113883.10.12.303"/>
+              <code code="74732009" displayName="psykisk lidelse"
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <!-- No value element -->
+            </observation>
+          </entry>
+        </section>
+      </component>
+
+
+
+
+
+    </structuredBody>
+  </component>
+</ClinicalDocument>

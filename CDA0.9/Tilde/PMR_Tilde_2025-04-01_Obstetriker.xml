@@ -136,54 +136,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td>Blodtryk systolisk</td>
-									<td>140 mmHg</td>
-									<td>2025-04-01  19:30:30</td>
-									<td>0202954618</td>
-								</tr>
-								<tr>
-									<td>Blodtryk diastolisk</td>
-									<td>90 mmHg</td>
-									<td>2025-04-01  19:30:30</td>
-									<td>0202954618</td>
-								</tr>					
-								<tr>
-									<td>kropsvægt</td>
-									<td>78 kg</td>
-									<td>2025-04-01  19:30:30</td>
-									<td>0202954618</td>
-								</tr>								
-								<tr>
-									<td>hjertelyd</td>
-									<td>Hjertelyd påvist</td>
-									<td>2025-04-01  19:30:30</td>
-									<td>Foster 1</td>
-								</tr>	
-								<tr>
-									<td>hjertelyd</td>
-									<td>Hjertelyd påvist</td>
-									<td>2025-04-01  19:30:30</td>
-									<td>Foster 2</td>
-								</tr>
-								<tr>
-									<td>fosterets bevægelsesaktivitet</td>
-									<td>normal</td>
-									<td>2025-04-01  19:30:30</td>
-									<td>Foster 1</td>
-								</tr>
-								<tr>
-									<td>fosterets bevægelsesaktivitet</td>
-									<td>normal</td>
-									<td>2025-04-01  19:30:30</td>
-									<td>Foster 2</td>
-								</tr>														
-								<tr>
-									<td>antal fostre</td>
-									<td>2</td>
-									<td>2025-04-01  19:30:30</td>
-									<td>0202954618</td>
-								</tr>									
+#NAR#									
 							</tbody>
 						</table>
 					</text>
@@ -208,7 +161,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="7fd56123-89fa-410b-bb8a-b691e4b18f06" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="902cafc6-87ed-4a1c-8a99-6d36e1e57779" root="1.2.208.193"/>
 									<code code="271649006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Systolisk blodtryk">
 										<translation code="DNK05472" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Blodtryk systolisk;Arm"/>
 									</code>
@@ -223,7 +176,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="4248e124-bfe6-44c9-9441-453f8b194cd4" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="af804c2a-7960-4e53-83ae-74691876c5e2" root="1.2.208.193"/>
 									<code code="271650006" displayName="diastolisk blodtryk" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK05473" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Arm—Blodtryk(diastolisk); tryk = ? mmHg"/>						
 									</code>
@@ -237,7 +190,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="af90f554-7dfc-4242-b261-cd085bb6a849" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="3badec94-ee8b-42ad-bfc4-3c3888e2cbeb" root="1.2.208.193"/>
 									<code code="27113001" displayName="kropsvægt" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="NPU03804" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Pt—Legeme; masse = ? kg"/>						
 									</code>
@@ -255,10 +208,10 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="dfd442af-c5c1-4abe-9c35-55d62b15c524" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="2dda2c3a-0517-4264-8a18-73e1b8b566cf" root="1.2.208.193"/>
 									<code code="271660002" displayName="hjertelyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<effectiveTime value="20250422193030+0200"/>
-									<value xsi:type="CD" code="289446001" displayName="fosterhjertelyd ikke påvist"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -273,10 +226,10 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="9b39f19b-1451-4a3b-be08-e7d4a1838a63" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="b28d984c-df49-4131-840a-62cc60ebcfe3" root="1.2.208.193"/>
 									<code code="271660002" displayName="hjertelyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<effectiveTime value="20250422193030+0200"/>
-									<value xsi:type="CD" code="289446001" displayName="fosterhjertelyd ikke påvist"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -291,11 +244,11 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="b363a826-dd37-49ac-b116-a4c72e8f007e" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="d934e2cc-2d21-422d-bc00-1be3636c2be2" root="1.2.208.193"/>
 									<code code="249040004" displayName="fosterets bevægelsesaktivitet" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250422193030+0200"/>
-									<value xsi:type="CD" code="289431008" displayName="fosterbevægelser påvist"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -310,11 +263,11 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="9d015431-9b63-4cf5-a9f5-02ab05a64ad6" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="2b45605d-2039-4aad-8397-b4c6827226b2" root="1.2.208.193"/>
 									<code code="249040004" displayName="fosterets bevægelsesaktivitet" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>										
 									<statusCode code="completed"/>										
 									<effectiveTime value="20250422193030+0200"/>
-									<value xsi:type="CD" code="289431008" displayName="fec7df64"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 											codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -332,7 +285,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.8" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="57d7576b-2dfc-4374-acec-0842ee9218be" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="94c23eae-a858-4de1-9001-fd452d609c81" root="1.2.208.193"/>
 									<code code="246435002" displayName="antal fostre" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250422193030+0200"/>

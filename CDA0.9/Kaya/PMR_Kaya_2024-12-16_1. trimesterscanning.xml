@@ -134,31 +134,8 @@
 									<th>Subject</th> 
 								</tr>
 							</thead>
-							<tbody>													
-								<tr>
-									<td>hjertelyd</td>
-									<td>Hjertelyd påvist</td>
-									<td>2024-12-16  15:30:30</td>
-									<td>Foster 1</td>
-								</tr>	
-								<tr>
-									<td>risiko for kromosomanomali</td>
-									<td>lav</td>
-									<td>2024-12-16  15:30:30</td>
-									<td>Foster 1</td>
-								</tr>				
-								<tr>
-									<td>beregnet terminsdato ud fra prænatal ultralydsscanning</td>
-									<td>20250630</td>
-									<td>2024-12-16  15:30:30</td>
-									<td>1704999948</td>
-								</tr>										
-								<tr>
-									<td>antal fostre</td>
-									<td>1</td>
-									<td>2024-12-16  15:30:30</td>
-									<td>1704999948</td>
-								</tr>									
+							<tbody>
+#NAR#									
 							</tbody>
 						</table>
 					</text>
@@ -183,10 +160,10 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="63e025fa-9ba6-4700-97aa-e7171833166a" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="ba6546c9-82b5-46f6-aa6e-0e5b55a7ee45" root="1.2.208.193"/>
 									<code code="271660002" displayName="hjertelyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<effectiveTime value="20241216153030+0200"/>
-									<value xsi:type="CD" code="289446001" displayName="fosterhjertelyd ikke påvist"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -201,11 +178,11 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="eddbdc83-351c-497a-af31-1998cf4080b4" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="4d7d2d35-d5cb-4472-8c0c-518b853eaf34" root="1.2.208.193"/>
 									<code code="628011000005109" displayName="risiko for kromosomanomali" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20241216153030+0200"/>
-									<value xsi:type="CD" code="723505004" displayName="lav risiko"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -223,7 +200,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.6" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="9bdc2582-a225-4be7-aad9-017a98c07a3a" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="e196542a-c90b-4811-b562-404717ded2fb" root="1.2.208.193"/>
 									<code code="738070007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="beregnet terminsdato ud fra prænatal ultralydsscanning"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20241216153030+0200"/>
@@ -239,7 +216,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.8" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="d7dbaf53-49bb-4b53-808e-6544829c6148" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="ed9fc7f8-5b8a-4fc2-958e-ae2cb20dda9a" root="1.2.208.193"/>
 									<code code="246435002" displayName="antal fostre" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20241216153030+0200"/>

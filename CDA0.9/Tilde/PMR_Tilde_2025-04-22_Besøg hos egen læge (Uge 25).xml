@@ -136,84 +136,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td>Blodtryk systolisk</td>
-									<td>140 mmHg</td>
-									<td>2025-04-22  20:30:30</td>
-									<td>0202954618</td>
-								</tr>
-								<tr>
-									<td>Blodtryk diastolisk</td>
-									<td>90 mmHg</td>
-									<td>2025-04-22  20:30:30</td>
-									<td>0202954618</td>
-								</tr>													
-								<tr>
-									<td>hjertelyd</td>
-									<td>Hjertelyd påvist</td>
-									<td>2025-04-22  20:30:30</td>
-									<td>Foster 1</td>
-								</tr>	
-								<tr>
-									<td>hjertelyd</td>
-									<td>Hjertelyd påvist</td>
-									<td>2025-04-22  20:30:30</td>
-									<td>Foster 2</td>
-								</tr>
-								<tr>
-									<td>fosterets bevægelsesaktivitet</td>
-									<td>normal</td>
-									<td>2025-04-22  20:30:30</td>
-									<td>Foster 1</td>
-								</tr>
-								<tr>
-									<td>fosterets bevægelsesaktivitet</td>
-									<td>normal</td>
-									<td>2025-04-22  20:30:30</td>
-									<td>Foster 2</td>
-								</tr>
-								<tr>
-									<td>forekomst af nitrit i urin</td>
-									<td>Positiv</td>
-									<td>2025-04-22  20:30:30</td>
-									<td>0202954618</td>
-								</tr>				
-								<tr>
-									<td>glucoseudskillelse i urin</td>
-									<td>0 - 2.8 mmol/L</td>  
-									<td>2025-04-22  20:30:30</td>
-									<td>0202954618</td>
-								</tr>	
-								<tr> 
-									<td>forekomst af erytrocytter i urin</td>
-									<td>5 - 18 x10^6/L</td>  
-									<td>2025-04-22  20:30:30</td>
-									<td>0202954618</td>
-								</tr>	
-								<tr> 
-									<td>forekomst af ketonstoffer i urin</td>
-									<td>0 - 0.25 mmol/L</td>  
-									<td>2025-04-22  20:30:30</td>
-									<td>0202954618</td>
-								</tr>								
-								<tr> 
-									<td>forekomst af leukocytter i urin</td>
-									<td>0 - 8 x10^6/L</td>  
-									<td>2025-04-22  20:30:30</td>
-									<td>0202954618</td>
-								</tr>
-								<tr> 
-									<td>forekomst af protein i urin</td>
-									<td>0 - 0.08 g/L</td>  
-									<td>2025-04-22  20:30:30</td>
-									<td>0202954618</td>
-								</tr>
-								<tr>
-									<td>antal fostre</td>
-									<td>2</td>
-									<td>2025-04-22  20:30:30</td>
-									<td>0202954618</td>
-								</tr>									
+#NAR#									
 							</tbody>
 						</table>
 					</text>
@@ -238,7 +161,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="dccdfe6a-3f01-4581-a8c4-5d41ed14496a" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="fd45e611-f841-4704-b8de-5d500a2ee076" root="1.2.208.193"/>
 									<code code="271649006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Systolisk blodtryk">
 										<translation code="DNK05472" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Blodtryk systolisk;Arm"/>
 									</code>
@@ -253,7 +176,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="b64d21a8-daeb-440d-91a8-d0ac9b397fa6" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="c7c90d01-6cd9-4dae-aec4-bf8398d6f844" root="1.2.208.193"/>
 									<code code="271650006" displayName="diastolisk blodtryk" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK05473" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Arm—Blodtryk(diastolisk); tryk = ? mmHg"/>						
 									</code>
@@ -271,10 +194,10 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="4c9d4112-4226-4ae8-8592-0636e730b7d9" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="98ab4af8-56c6-4f42-8052-536893755e38" root="1.2.208.193"/>
 									<code code="271660002" displayName="hjertelyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<effectiveTime value="20250520203030+0200"/>
-									<value xsi:type="CD" code="289446001" displayName="fosterhjertelyd ikke påvist"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -289,10 +212,10 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="1becef28-e169-41b8-b657-3ffccc16ad08" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="b4612197-0632-4491-93c3-c5218841868a" root="1.2.208.193"/>
 									<code code="271660002" displayName="hjertelyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<effectiveTime value="20250520203030+0200"/>
-									<value xsi:type="CD" code="289446001" displayName="fosterhjertelyd ikke påvist"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -307,11 +230,11 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="a05d8895-15bb-41c2-901f-384267ee7c2b" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="f1b50866-e2bd-4f76-b4b4-02535e3f6d3c" root="1.2.208.193"/>
 									<code code="249040004" displayName="fosterets bevægelsesaktivitet" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250520203030+0200"/>
-									<value xsi:type="CD" code="289431008" displayName="fosterbevægelser påvist"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -326,11 +249,11 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="7fa8769c-8291-499d-9e4e-672c4753ab82" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="5d7cfdef-178a-4610-9e85-649825f6ce12" root="1.2.208.193"/>
 									<code code="249040004" displayName="fosterets bevægelsesaktivitet" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>										
 									<statusCode code="completed"/>										
 									<effectiveTime value="20250520203030+0200"/>
-									<value xsi:type="CD" code="289431008" displayName="fec7df64"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 											codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -346,13 +269,13 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="4226f6f4-ffba-418b-b0a1-0f38ed9af579" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="bf6f77ca-6fb8-4a18-9301-fc09b855ad48" root="1.2.208.193"/>
 									<code code="638041000005105" displayName="forekomst af nitrit i urin" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="NPU21578" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName=" U—Nitrit; arb.k.(proc.) = ?"/>
 									</code>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250520203030+0200"/>
-									<value xsi:type="CD" code="314137006" displayName="nitrit i urin positiv"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 								</observation>
 							</component>
@@ -365,7 +288,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.7" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="ce7e6137-2c8f-42c9-93a1-ae0fa6e5c5d9" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="78e029ce-2986-4e7e-a225-0aeabe8b57e0" root="1.2.208.193"/>
 									<code code="251396006" displayName="glucoseudskillelse i urin" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="NPU04207" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="U—Glucose; arb.k.(proc.) = ?"/>
 									</code>
@@ -383,7 +306,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.7" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="a786aff7-4075-440e-81d5-7672f8070f33" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="85798169-85e8-44d1-8477-e662abcab9e4" root="1.2.208.193"/>
 									<code code="648131000005102" displayName="forekomst af erytrocytter i urin" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="NPU03963" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="U—Erythrocytter; arb.k.(proc.) = ?"/>
 									</code>
@@ -401,7 +324,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.7" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="4c5f4fb8-eeca-403a-a876-5f86b3cedebf" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="e5a2d351-a78d-44ab-867d-44f5f8832435" root="1.2.208.193"/>
 									<code code="638021000005100" displayName="forekomst af ketonstoffer i urin" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="NPU27035" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="U—2-Hydroxybutyrat; arb.k.(proc.) = ?"/>
 									</code>
@@ -419,7 +342,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.7" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="e67b67f3-9d20-4de4-b411-369e3ede9ce1" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="e2ec745d-9912-4966-8964-2bb0406ec397" root="1.2.208.193"/>
 									<code code="638001000005108" displayName="forekomst af leukocytter i urin" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="NPU03963" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="U—Erythrocytter; arb.k.(proc.) = ?"/>
 									</code>
@@ -437,7 +360,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.7" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="be36cf90-9781-4077-86ee-b0546b12dd2f" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="d9d0ac39-626e-4185-8a85-81d21f7f590e" root="1.2.208.193"/>
 									<code code="638011000005106" displayName="forekomst af protein i urin" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="NPU04206" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="U—Protein; arb.k.(proc.) = ?"/>
 									</code>
@@ -458,7 +381,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.8" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="df6684da-8458-4da4-8f31-074014e79b1e" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="f276e8c3-83e0-4dd5-b079-6225bc0ba096" root="1.2.208.193"/>
 									<code code="246435002" displayName="antal fostre" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250520203030+0200"/>

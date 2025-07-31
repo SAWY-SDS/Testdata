@@ -136,66 +136,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td>cervixlængde</td>
-									<td>10 mm</td>
-									<td>2025-05-27  02:30:30</td>
-									<td>0202954618</td>
-								</tr>		
-								<tr>
-									<td>skønnet fostervægt ved ultralyd</td>
-									<td>1300 g</td>
-									<td>2025-05-27  02:30:30</td>
-									<td>Foster 1</td>
-								</tr>	
-								<tr>
-									<td>skønnet fostervægt ved ultralyd</td>
-									<td>1380 g</td>
-									<td>2025-05-27  02:30:30</td>
-									<td>Foster 2</td>
-								</tr>
-								<tr>
-									<td>procent af referencevægt</td>
-									<td>-18.92%</td>
-									<td>2025-05-27  02:30:30</td>
-									<td>Foster 1</td>
-								</tr>	
-								<tr>
-									<td>procent af referencevægt</td>
-									<td>-13.93%</td>
-									<td>2025-05-27  02:30:30</td>
-									<td>Foster 2</td>
-								</tr>										
-								<tr>
-									<td>fosterpræsentation ved ultralyd</td>
-									<td>H</td>
-									<td>2025-05-27  02:30:30</td>
-									<td>Foster 1</td>
-								</tr>
-								<tr>
-									<td>fosterpræsentation ved ultralyd</td>
-									<td>Skråleje</td>
-									<td>2025-05-27  02:30:30</td>
-									<td>Foster 2</td>
-								</tr>
-								<tr>
-									<td>fostervand</td>
-									<td>normal</td>
-									<td>2025-05-27  02:30:30</td>
-									<td>foster 1</td>
-								</tr>
-								<tr>
-									<td>fostervand</td>
-									<td>normal</td>
-									<td>2025-05-27  02:30:30</td>
-									<td>foster 2</td>
-								</tr>														
-								<tr>
-									<td>antal fostre</td>
-									<td>2</td>
-									<td>2025-05-27  02:30:30</td>
-									<td>0202954618</td>
-								</tr>									
+#NAR#									
 							</tbody>
 						</table>
 					</text>
@@ -217,7 +158,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="73855322-0994-4bee-91f1-1d92dfa9695f" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="437cf3e5-cbd7-4d00-8c99-00dfd4ff59d7" root="1.2.208.193"/>
 									<code code="248918004" displayName="længde af cervix uteri" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35322" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Pt—Cervix uteri; længde = ? mm"/>						
 									</code>
@@ -232,7 +173,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="c8270486-dd44-4d43-9058-195ccb29e03e" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="345217fb-a6dd-4744-8fb1-4a77435fc820" root="1.2.208.193"/>
 									<code code="627991000005103" displayName="skønnet fostervægt ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35318" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme; masse = ? g"/>						
 									</code>
@@ -252,7 +193,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="efeb5db9-575e-4864-b798-901768d6ce8d" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="1aa1f5e1-caf9-4adc-b611-8b1f8d64610c" root="1.2.208.193"/>
 									<code code="627991000005103" displayName="skønnet fostervægt ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35318" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme; masse = ? g"/>						
 									</code>
@@ -272,7 +213,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="20652cfa-38a8-45a8-9551-ebff0658e958" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="77115a0c-20b7-47c9-b8e2-2fbd904988be" root="1.2.208.193"/>
 									<code code="248353000" displayName="procent af referencevægt" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35320" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme(aktuel-norm); massefr. = ? %"/>						
 									</code>
@@ -292,7 +233,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="032d3097-9dfc-4beb-8dfa-fa800fb587f7" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="1e7b2ca9-5a45-4090-9b5b-b578e867ff0f" root="1.2.208.193"/>
 									<code code="248353000" displayName="procent af referencevægt" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35320" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme(aktuel-norm); massefr. = ? %"/>						
 									</code>
@@ -312,11 +253,11 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="a661f691-dcbf-49ec-b68f-fd0faed44826" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="4e2d0ab0-9a57-4a5d-a548-df8b2b8dc18b" root="1.2.208.193"/>
 									<code code="627981000005101" displayName="fosterpræsentation ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250514023030+0200"/>
-									<value xsi:type="CD" code="1209182005" displayName="hovedpræsentation"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -331,11 +272,11 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="acb76a77-d2ca-4ae9-a700-8f4cc582d7cb" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="86362861-f778-4544-ba79-3757e0479b0a" root="1.2.208.193"/>
 									<code code="627981000005101" displayName="fosterpræsentation ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250514023030+0200"/>
-									<value xsi:type="CD" code="63750008" displayName="Skråleje"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -350,13 +291,13 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="46319c13-c461-4a95-bfea-cb39584aa53c" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="e537726c-f845-4502-b5f5-a39d515e751c" root="1.2.208.193"/>
 									<code code="88299004" displayName="fostervand" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35321" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Livmoder—Amnionvæske volumen; længde(AFI) = ? mm"/>
 									</code>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250514023030+0200"/>
-									<value xsi:type="CD" code="1228877003" displayName="mængde af amnionvæske under referenceinterval"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -371,13 +312,13 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="075c8977-9f37-4076-b1ad-b1a79541fad4" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="8ef372e1-428e-4a51-b85e-51f6a34c348e" root="1.2.208.193"/>
 									<code code="88299004" displayName="fostervand" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35321" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Livmoder—Amnionvæske volumen; længde(AFI) = ? mm"/>
 									</code>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250514023030+0200"/>
-									<value xsi:type="CD" code="1228877003" displayName="724e06b3"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -395,7 +336,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.8" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="24644b2d-15c5-4c43-9c84-eef2f71c910c" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="683f4267-7b6e-4b03-9510-1f61ea65e0f3" root="1.2.208.193"/>
 									<code code="246435002" displayName="antal fostre" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250514023030+0200"/>

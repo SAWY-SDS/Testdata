@@ -136,96 +136,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td>Blodtryk systolisk</td>
-									<td>140 mmHg</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>0202954618</td>
-								</tr>
-								<tr>
-									<td>Blodtryk diastolisk</td>
-									<td>90 mmHg</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>0202954618</td>
-								</tr>		
-								<tr>
-									<td>skønnet fostervægt ved ultralyd</td>
-									<td>1800 g</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>Foster 1</td>
-								</tr>	
-								<tr>
-									<td>skønnet fostervægt ved ultralyd</td>
-									<td>2000 g</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>Foster 2</td>
-								</tr>
-								<tr>
-									<td>procent af referencevægt</td>
-									<td>-24.41%</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>Foster 1</td>
-								</tr>	
-								<tr>
-									<td>procent af referencevægt</td>
-									<td>-16.01%</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>Foster 2</td>
-								</tr>									
-								<tr>
-									<td>hjertelyd</td>
-									<td>Hjertelyd påvist</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>Foster 1</td>
-								</tr>	
-								<tr>
-									<td>hjertelyd</td>
-									<td>Hjertelyd påvist</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>Foster 2</td>
-								</tr>
-								<tr>
-									<td>fosterets bevægelsesaktivitet</td>
-									<td>mindre</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>Foster 1</td>
-								</tr>
-								<tr>
-									<td>fosterets bevægelsesaktivitet</td>
-									<td>normal</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>Foster 2</td>
-								</tr>
-								<tr>
-									<td>fosterpræsentation</td>
-									<td>H</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>Foster 1</td>
-								</tr>
-								<tr>
-									<td>fosterpræsentation</td>
-									<td>H</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>Foster 2</td>
-								</tr>
-								<tr>
-									<td>fostervand</td>
-									<td>normal</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>foster 1</td>
-								</tr>
-								<tr>
-									<td>fostervand</td>
-									<td>normal</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>foster 2</td>
-								</tr>														
-								<tr>
-									<td>antal fostre</td>
-									<td>2</td>
-									<td>2025-06-24  07:30:30</td>
-									<td>0202954618</td>
-								</tr>									
+#NAR#									
 							</tbody>
 						</table>
 					</text>
@@ -250,7 +161,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="70d3b464-4efc-4f2b-a4a6-a1b4b8fe7a89" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="271d1e12-ee16-4e96-9e5f-ee17a76a20d7" root="1.2.208.193"/>
 									<code code="271649006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Systolisk blodtryk">
 										<translation code="DNK05472" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Blodtryk systolisk;Arm"/>
 									</code>
@@ -265,7 +176,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="5318cecf-8cd1-4801-a210-17a7b6c2c669" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="850b4103-5cde-43ff-a5b2-b8d83698b136" root="1.2.208.193"/>
 									<code code="271650006" displayName="diastolisk blodtryk" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK05473" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Arm—Blodtryk(diastolisk); tryk = ? mmHg"/>						
 									</code>
@@ -280,7 +191,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="c90ec5e7-aba9-4848-a6ac-7f806d1cf00f" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="96d29ad2-d297-4855-bbb6-6c8e8ea36fff" root="1.2.208.193"/>
 									<code code="627991000005103" displayName="skønnet fostervægt ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35318" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme; masse = ? g"/>						
 									</code>
@@ -300,7 +211,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="74482cc4-25ca-48b5-bd3c-4ab8b950a396" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="a91b4ae4-1699-4d36-81c5-631998c4aa65" root="1.2.208.193"/>
 									<code code="627991000005103" displayName="skønnet fostervægt ved ultralyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35318" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme; masse = ? g"/>						
 									</code>
@@ -320,7 +231,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="d2fd8abd-1a30-44bc-83bf-76d5f370846a" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="7f676325-f734-405f-9b8c-afcc389db3e6" root="1.2.208.193"/>
 									<code code="248353000" displayName="procent af referencevægt" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35320" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme(aktuel-norm); massefr. = ? %"/>						
 									</code>
@@ -340,7 +251,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.3" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="928b8a65-fdf2-4b53-9c80-48fc021112bb" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="921e8c9b-563d-436c-b4ed-03cc096c4ea6" root="1.2.208.193"/>
 									<code code="248353000" displayName="procent af referencevægt" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35320" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Foster—Legeme(aktuel-norm); massefr. = ? %"/>						
 									</code>
@@ -363,10 +274,10 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="85551104-5d36-4ade-8d1b-605dec532658" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="828b2db6-887a-4452-8c87-23fa419ccb46" root="1.2.208.193"/>
 									<code code="271660002" displayName="hjertelyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<effectiveTime value="20250614073030+0200"/>
-									<value xsi:type="CD" code="289446001" displayName="fosterhjertelyd ikke påvist"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -381,10 +292,10 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="f2268638-6757-4876-83fc-3813288a7a15" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="4830afe5-c5ee-425c-94a5-f2046d08e664" root="1.2.208.193"/>
 									<code code="271660002" displayName="hjertelyd" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<effectiveTime value="20250614073030+0200"/>
-									<value xsi:type="CD" code="289446001" displayName="fosterhjertelyd ikke påvist"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -399,11 +310,11 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="5222f565-e709-49c8-8fab-d646f42ab0ce" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="087557fb-d2d3-4b62-9cc2-8c8f2964d453" root="1.2.208.193"/>
 									<code code="249040004" displayName="fosterets bevægelsesaktivitet" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250614073030+0200"/>
-									<value xsi:type="CD" code="276369006" displayName="reduceret fosterbevægelse"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -418,11 +329,11 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="1350b544-e9ca-4e29-a12c-ee70b01520a6" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="a40a5d20-9535-4c84-b76f-e7d15e101853" root="1.2.208.193"/>
 									<code code="249040004" displayName="fosterets bevægelsesaktivitet" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>										
 									<statusCode code="completed"/>										
 									<effectiveTime value="20250614073030+0200"/>
-									<value xsi:type="CD" code="289431008" displayName="fec7df64"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 											codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -437,11 +348,11 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="56de2022-bca8-4297-93bd-f6c86594b5e3" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="aca247d9-6d08-4774-aa4e-f52ff5b515c0" root="1.2.208.193"/>
 									<code code="271692001" displayName="fosterpræsentation" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250614073030+0200"/>
-									<value xsi:type="CD" code="1209182005" displayName="hovedpræsentation"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -456,11 +367,11 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="4633f663-f36b-4a75-bbab-89edcc2997bc" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="89b06351-5d64-4c0c-ad22-8b5db41626fe" root="1.2.208.193"/>
 									<code code="271692001" displayName="fosterpræsentation" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250614073030+0200"/>
-									<value xsi:type="CD" code="1209182005" displayName="hovedpræsentation"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -475,13 +386,13 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="fe604dd6-0918-4c74-9829-7df804164cd5" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="0b51bbc6-8f04-4eab-8376-a0fa08c4b6e2" root="1.2.208.193"/>
 									<code code="88299004" displayName="fostervand" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35321" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Livmoder—Amnionvæske volumen; længde(AFI) = ? mm"/>
 									</code>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250614073030+0200"/>
-									<value xsi:type="CD" code="1228877003" displayName="mængde af amnionvæske under referenceinterval"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -496,13 +407,13 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.5" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="9ce7b34b-547f-442e-b506-83eae0e188b2" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="77a38194-4913-414d-84f9-c1ccdafb7d47" root="1.2.208.193"/>
 									<code code="88299004" displayName="fostervand" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
 										<translation code="DNK35321" codeSystem="1.2.208.176.2.1" codeSystemName="NPU terminologien" displayName="Livmoder—Amnionvæske volumen; længde(AFI) = ? mm"/>
 									</code>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250614073030+0200"/>
-									<value xsi:type="CD" code="1228877003" displayName="724e06b3"
+									<value xsi:type="CD" code="#SNOMEDCODE#" displayName="#DISPLAYNAME#"
 										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<subject> 
 										<relatedSubject>
@@ -520,7 +431,7 @@
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2023-05-01"/>
 									<templateId root="1.2.208.184.21.2.8" extension="2025-01-15"/>
-									<id assigningAuthorityName="PLSP" extension="1977d7c1-a49c-4684-a8b4-edc8191c35e8" root="1.2.208.193"/>
+									<id assigningAuthorityName="PLSP" extension="eddbae68-fbce-414a-88c7-4026f1201b29" root="1.2.208.193"/>
 									<code code="246435002" displayName="antal fostre" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20250614073030+0200"/>

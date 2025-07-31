@@ -13,7 +13,7 @@
   <!-- MedCom templateId for Pregnancy Referal From-->
   <templateId extension="2.0" root="1.2.208.184.19.1"/>
   <!-- Unik ID for this PRF-DK instance -->
-  <id assigningAuthorityName="PLSP" extension="503b8fae-ca09-444d-a328-3b203dd06b77"
+  <id assigningAuthorityName="PLSP" extension="bd4eb107-6958-4e4c-931e-53fb0532b58d"
     root="1.2.208.193"/>
   <code code="PRF" codeSystem="1.2.208.184.100.1" codeSystemName="MedCom Message Codes"
     displayName="Pregnancy Referal From"/>
@@ -457,22 +457,6 @@
                 <tr>
                   <td>familieanamnese med arvelig sygdom</td>
                   <td>Nej</td>
-                </tr>
-                <tr>
-                  <td>screeningstest for hæmoglobinopati</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>træk vedr. tidsforhold</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>fund ved prænatal screening</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>familieanamnese: hæmoglobinopati</td>
-                  <td>Ja</td>
                 </tr>
               </tbody>
             </table>

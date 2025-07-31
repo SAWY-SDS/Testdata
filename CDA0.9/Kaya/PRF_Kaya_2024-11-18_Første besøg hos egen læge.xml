@@ -13,7 +13,7 @@
   <!-- MedCom templateId for Pregnancy Referal From-->
   <templateId extension="2.0" root="1.2.208.184.19.1"/>
   <!-- Unik ID for this PRF-DK instance -->
-  <id assigningAuthorityName="PLSP" extension="88001be6-4d0d-47ba-b9e9-9ba64bfccf13"
+  <id assigningAuthorityName="PLSP" extension="cdc6169d-3307-4885-90ab-11ec4a07a02f"
     root="1.2.208.193"/>
   <code code="PRF" codeSystem="1.2.208.184.100.1" codeSystemName="MedCom Message Codes"
     displayName="Pregnancy Referal From"/>
@@ -366,7 +366,7 @@
                 codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
               <statusCode code="completed"/>
               <effectiveTime nullFlavor="NI"/>
-              211223989
+              <value xsi:type="II" assigningAuthorityName="CPR" extension="211223989" root="1.2.208.176.1.2"/>
               <value xsi:type="PN">
                 <given>Gunner</given>
                 <given>Rée</given>
@@ -445,22 +445,6 @@
                 <tr>
                   <td>familieanamnese med arvelig sygdom</td>
                   <td>Nej</td>
-                </tr>
-                <tr>
-                  <td>screeningstest for hæmoglobinopati</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>træk vedr. tidsforhold</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>fund ved prænatal screening</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>familieanamnese: hæmoglobinopati</td>
-                  <td>Ja</td>
                 </tr>
               </tbody>
             </table>
